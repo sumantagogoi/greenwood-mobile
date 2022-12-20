@@ -4,6 +4,8 @@ import About from '../../components/about/About'
 import CategoryTabs from '../../components/CatTabs/CategoryTabs'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
+import HomeFamily from '../../components/HomeFamily/HomeFamily'
+import Properties from '../../components/properties/Properties'
 
 const Home = () => {
 
@@ -14,6 +16,8 @@ const Home = () => {
         <Box sx={{display:'flex', flexDirection:'column', height:'100%', overflowY:'scroll'}}>
             <Container maxWidth='md'>
                    <About/> 
+                   <HomeFamily/>
+                   <Properties/>
             </Container>
         </Box>
         <Box>
