@@ -1,12 +1,17 @@
 import { Box, Container, Tab, Tabs } from '@mui/material'
 import React from 'react'
 import {useState} from 'react'
+import {FcHome} from 'react-icons/fc'
+import {MdFastfood} from 'react-icons/md'
+import {GiPartyPopper, GiSaloon} from 'react-icons/gi'
+
 
 
 const CategoryTabsData = [
-    {id:1, name:'Greenwood Guwahati'},
-    {id:2, name:'Greenwood Tezpur'},
-    {id:3, name:'Greenwood Beltola'},  
+    {id:1, name:'STAY', icon:<FcHome size={27}/>,},
+    {id:2, name:'DINNING & BAR', icon:<MdFastfood size={27}/>},
+    {id:3, name:'EVENTS AND BOOKINGS', icon:<GiPartyPopper size={27}/>},  
+    {id:4, name:'WELLNESS & SPA', icon:<GiSaloon size={27} /> },
 ]
 
 const CategoryTabs = () => {
