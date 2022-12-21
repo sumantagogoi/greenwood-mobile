@@ -12,7 +12,7 @@ const Home = () => {
   return (
   <Box sx={{display:'flex', flexDirection:'column', height:'100vh'}}>
         <Header/>
-        <CategoryTabs/>
+        <Footer/>
         <Box sx={{display:'flex', flexDirection:'column', height:'100%', overflowY:'scroll'}}>
             <Container maxWidth='md'>
                    <About/> 
@@ -21,7 +21,8 @@ const Home = () => {
             </Container>
         </Box>
         <Box>
-            <Footer/>
+        <CategoryTabs/>
+            
         </Box>
 
 
