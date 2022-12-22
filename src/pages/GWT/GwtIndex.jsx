@@ -1,23 +1,17 @@
-import { Box, Container } from '@mui/material'
-import React from 'react'
+import {Box, Container} from '@mui/material'
 import About from '../../components/about/About'
 import CategoryTabs from '../../components/CatTabs/CategoryTabs'
 import Nav2 from '../../components/Nav2/Nav2'
 import Header from '../../components/header/Header'
-import HomeFamily from '../../components/HomeFamily/HomeFamily'
-import Properties from '../../components/properties/Properties'
 
-const Home = () => {
-
+const GwtIndex = () => {
   return (
-  <Box sx={{display:'flex', flexDirection:'column', height:'100vh'}}>
+    <Box sx={{display:'flex', flexDirection:'column', height:'100vh'}}>
         <Header/>
         <Nav2/>
         <Box sx={{display:'flex', flexDirection:'column', height:'100%', overflowY:'scroll'}}>
             <Container maxWidth='md'>
                    <About   /> 
-                   <HomeFamily/>
-                   <Properties/>
             </Container>
         </Box>
         <Box>
@@ -30,4 +24,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default GwtIndex

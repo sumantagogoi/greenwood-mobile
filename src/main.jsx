@@ -4,13 +4,18 @@ import App from './App'
 import './index.css'
 import AppThemeProvider from './themes/AppThemeProvider'
 import {BrowserRouter} from 'react-router-dom'
+import { GreenwoodAppContextProvider } from './context/GreenwoodAppContext'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+     <GreenwoodAppContextProvider>
     <AppThemeProvider>
       <BrowserRouter>
         <App />
-      </BrowserRouter>
+      </BrowserRouter>   
     </AppThemeProvider>
+    </GreenwoodAppContextProvider>
+     
   </React.StrictMode>,
 )

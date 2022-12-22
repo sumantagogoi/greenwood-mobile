@@ -7,15 +7,14 @@ import Header from '../../components/header/Header'
 import HomeFamily from '../../components/HomeFamily/HomeFamily'
 import Properties from '../../components/properties/Properties'
 
-const Home = () => {
-
+const Index = () => {
   return (
-  <Box sx={{display:'flex', flexDirection:'column', height:'100vh'}}>
+    <Box sx={{display:'flex', flexDirection:'column', height:'100vh'}}>
         <Header/>
         <Nav2/>
         <Box sx={{display:'flex', flexDirection:'column', height:'100%', overflowY:'scroll'}}>
             <Container maxWidth='md'>
-                   <About   /> 
+                   <About/> 
                    <HomeFamily/>
                    <Properties/>
             </Container>
@@ -30,4 +29,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Index
