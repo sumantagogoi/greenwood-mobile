@@ -2,7 +2,7 @@ import { Box, Button, Stack, Typography } from '@mui/material'
 import React from 'react'
 import './Footer.css'
 import {BiHome} from 'react-icons/bi'
-import { BsFillBagCheckFill} from 'react-icons/Bs'
+import { BsFillBagCheckFill} from 'react-icons/bs'
 import {CgProfile} from 'react-icons/cg'
 
 const FooterMenu = [
