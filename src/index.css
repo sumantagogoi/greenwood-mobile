@@ -12,3 +12,8 @@ html body{
   overflow: hidden;
   color: inherit;
 }
+
+.link-style1 {
+  text-decoration: none;
+  color: white;
+}

@@ -27,7 +27,7 @@ const Header = () => {
             </Box>
         </Container>
 
-        <RightDrawer navopen={navopen} setNavOpen={setNavOpen} />
+        <RightDrawer navopen={navopen} setNavOpen={setNavOpen}/>
   </Box>
   )
 }

@@ -3,7 +3,7 @@ import CategoryTabs from '../../components/CatTabs/CategoryTabs'
 
 
 
-const GWTIndex = () => {
+const GWRIndex = () => {
   return (
     <Box sx={{display:'flex', flexDirection:'column', height:'100vh'}}>
      Greenwood GUWAAAAAHATI
@@ -12,4 +12,4 @@ const GWTIndex = () => {
   )
 }
 
-export default GWTIndex
+export default GWRIndex
