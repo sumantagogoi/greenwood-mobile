@@ -1,7 +1,7 @@
 import { Box, Container } from '@mui/material'
 import React from 'react'
 import Nav2 from '../components/Nav2/Nav2'
-import * as GWG from './GWG/GWGIndex'
+//import * as GWG from './GWG/GWGIndex'
 
 const PathToComponent = {
     "/": "About"
