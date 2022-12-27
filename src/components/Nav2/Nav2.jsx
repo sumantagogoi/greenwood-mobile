@@ -32,7 +32,7 @@ const Nav2 = ({page}) => {
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                            
-                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: '12px',  }} dangerouslySetInnerHTML={{__html: name}}></Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize:'x-small',  }} dangerouslySetInnerHTML={{__html: name}}></Typography>
                         </Stack>
                     </Button>
                 </Link>
@@ -42,7 +42,7 @@ const Nav2 = ({page}) => {
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <FontAwesomeIcon icon={solid('bed')} size="lg" color="white" />
-                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular' }}>Stay</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize:'x-small' }}>Stay & <br></br> Lodging</Typography>
                         </Stack>
                     </Button>
 
@@ -52,7 +52,7 @@ const Nav2 = ({page}) => {
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <FontAwesomeIcon icon={solid('utensils')} size="lg" color="white" />
-                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular' }}>F & B</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize:'x-small' }}>Food & <br></br>Beverages</Typography>
                         </Stack>
                     </Button>
                 </Link>
@@ -62,17 +62,17 @@ const Nav2 = ({page}) => {
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <FontAwesomeIcon icon={solid('champagne-glasses')} size="lg" color="white" />
-                            <Typography sx={{ color: 'white', fontSize: '12px', fontFamily: 'Savoy Regular' }}>Event Bookings</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize:'x-small'  }}>Events &<br></br> Bookings</Typography>
                         </Stack>
                     </Button>
 
                 </Link>
 
-                <Link to={`/${gw2}spa-kayana`}>
+                <Link to={`/${gw2}spa-wellness`}>
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <FontAwesomeIcon icon={solid('spa')} size="lg" color="white" />
-                            <Typography sx={{ color: 'white' }}>Spa</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize:'x-small' }}>Spa & <br></br> Wellness</Typography>
                         </Stack>
                     </Button>
                 </Link>

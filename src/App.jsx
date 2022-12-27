@@ -16,7 +16,7 @@ const App = () => {
       <Route path='/event-bookings' element ={<Home page='event-bookings'/>} />
       <Route path='/contact' element ={<Home page='contact'/>} />
       <Route path='/gw-family' element ={<Home page='gw-family'/>} />
-      <Route path="/spa" element ={<Home page='spa'/>} />
+      <Route path="/spa-wellness" element ={<Home page='spa'/>} />
 
       <Route path='/gwr' element ={<Home page='gwr-main'/>} />
 
@@ -45,6 +45,7 @@ const App = () => {
       <Route path='/gwr-event-bookings-umananda-hall' element ={<Home page='gwr-event-bookings-umananda-hall'/>} />
 
       <Route path='/gwr-spa-kayana' element ={<Home page='gwr-spa'/>} />
+      <Route path='/gwr-spa-wellness' element ={<Home page='gwg-spa'/>} />
       
       <Route path='/gwg' element ={<Home page='gwg-main'/>} />      
 
@@ -64,6 +65,7 @@ const App = () => {
       <Route path='/gwg-event-bookings-xorai' element ={<Home page='gwg-event-bookings-xorai'/>} />
 
       <Route path='/gwg-spa-kayana' element ={<Home page='gwg-spa'/>} />
+      <Route path='/gwg-spa-wellness' element ={<Home page='gwg-spa'/>} />
 
       <Route path='/gwt' element ={<Home page='gwt-main'/>} />      
 
@@ -85,6 +87,7 @@ const App = () => {
       <Route path='/gwt-event-bookings-orang-lawn' element ={<Home page='gwt-event-bookings-orang-lawn'/>} />
 
       <Route path='/gwt-spa-kayana' element ={<Home page='gwt-spa'/>} />
+      <Route path='/gwt-spa-wellness' element ={<Home page='gwg-spa'/>} />
 
 
 
