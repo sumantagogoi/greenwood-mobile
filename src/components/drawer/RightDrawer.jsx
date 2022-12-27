@@ -48,7 +48,7 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
               {/* <ListItemButton onClick={()=>changeNav('The Greenwood Resort Guwahati', 'gwr')} > */}
               <Link to="/gwr" onClick={handleClick}>
                 <ListItemButton>
-                  <ListItemText className="link-style1" primary='The Greenwood Resort Guwahati' />
+                  <ListItemText className="link-style2" primary='The Greenwood Resort, Guwahati' />
                 </ListItemButton>
               </Link>
 
@@ -57,7 +57,7 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
             <ListItem disablePadding >
               <Link to="/gwt" onClick={handleClick}>
                 <ListItemButton>
-                  <ListItemText className="link-style1" primary='The Greenwood Tezpur' />
+                  <ListItemText className="link-style2" primary='The Greenwood, Tezpur' />
                 </ListItemButton>
               </Link>
 
@@ -66,7 +66,7 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
             <ListItem disablePadding  >
               <Link to="/gwg" onClick={handleClick}>
                 <ListItemButton>
-                  <ListItemText className="link-style1" primary='The Greenwood Guwahati' />
+                  <ListItemText className="link-style2" primary='The Greenwood, Guwahati' />
                 </ListItemButton>
                 </Link>
             </ListItem>        
