@@ -1,10 +1,11 @@
 import React from 'react'
 import { useState, useContext } from "react";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
-import { Box, Typography, Divider, List, ListItem, ListItemText, ListItemButton } from '@mui/material';
+import { Box, Typography, Divider, List, ListItem, ListItemText, ListItemButton, IconButton } from '@mui/material';
 import { useNavigate, Link } from 'react-router-dom';
 
 import AppContext from '../../context/GreenwoodAppContext';
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 const RightDrawer = ({ navopen, setNavOpen }) => {
 
@@ -37,9 +38,13 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
     >
 
       <Box sx={{ width: 350 }}>
-        <Box textAlign="center" sx={{ mt: 3, mb: 2 }}>
+        <Box textAlign="center" sx={{ mt: 3, mb: 0, ml: -10 }}>
           <img onClick={() => navigate('/')} className='logo' src='https://thegreenwoodhotels.com/wp-content/uploads/2022/04/logo2x.png' />
         </Box>
+        <Box textAlign="right" sx={{ mt: -5, mb: 4 }}><IconButton onClick={()=>setNavOpen(false)}>
+                    <GiHamburgerMenu color='white'/>
+                </IconButton></Box>
+        
         <Divider sx={{ border: 1 }} />
 
         <Box sx={{ mt: 2 }}>

@@ -56,7 +56,7 @@ const CategoryTabs = ({ page }) => {
   const location = useLocation();
   const pathname = location.pathname;
 
-  const keys = page.split("-");
+  const keys = pathname.split("-");
   let ln = keys[1] == "event" ? keys[0] + "-" + keys[1] + "-" + keys[2] : keys[0] + "-" + keys[1];
   const exists = Object.keys(gwItems).includes(ln);
 
