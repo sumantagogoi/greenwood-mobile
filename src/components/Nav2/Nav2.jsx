@@ -32,7 +32,7 @@ const Nav2 = ({page}) => {
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                            
-                            <Typography sx={{ color: 'white', fontSize: '12px' }} dangerouslySetInnerHTML={{__html: name}}></Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: '12px',  }} dangerouslySetInnerHTML={{__html: name}}></Typography>
                         </Stack>
                     </Button>
                 </Link>
@@ -42,7 +42,7 @@ const Nav2 = ({page}) => {
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <FontAwesomeIcon icon={solid('bed')} size="lg" color="white" />
-                            <Typography sx={{ color: 'white' }}>Stay</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular' }}>Stay</Typography>
                         </Stack>
                     </Button>
 
@@ -52,7 +52,7 @@ const Nav2 = ({page}) => {
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <FontAwesomeIcon icon={solid('utensils')} size="lg" color="white" />
-                            <Typography sx={{ color: 'white' }}>F&B</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular' }}>F & B</Typography>
                         </Stack>
                     </Button>
                 </Link>
@@ -62,13 +62,13 @@ const Nav2 = ({page}) => {
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <FontAwesomeIcon icon={solid('champagne-glasses')} size="lg" color="white" />
-                            <Typography sx={{ color: 'white' }}>Event Bookings</Typography>
+                            <Typography sx={{ color: 'white', fontSize: '12px', fontFamily: 'Savoy Regular' }}>Event Bookings</Typography>
                         </Stack>
                     </Button>
 
                 </Link>
 
-                <Link to={`/${gw2}spa`}>
+                <Link to={`/${gw2}spa-kayana`}>
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <FontAwesomeIcon icon={solid('spa')} size="lg" color="white" />

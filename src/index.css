@@ -17,3 +17,11 @@ html body{
   text-decoration: none;
   color: white;
 }
+
+@font-face {
+  font-family: 'Savoy Regular';
+  src: url('https://thegreenwoodhotels.com/wp-content/uploads/2022/04/Savoy_Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,9 @@
+.navTab{
+    color:white!important;
+    font-family: 'Savoy Regular'!important;
+}
+
+.navTab .Mui-selected{
+    color:grey!important;
+    text-decoration: underline;
+}
