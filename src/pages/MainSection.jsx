@@ -4,22 +4,22 @@ import Nav2 from '../components/Nav2/Nav2'
 //import * as GWG from './GWG/GWGIndex'
 
 const PathToComponent = {
-    "/": "About"
+  "/": "About"
 };
 
 
-const MainSection = ({page}) => {
-    return (
-        <Box>
-            <div>
-          <h1>{page}</h1>
-        </div>
-        <Nav2 page={page} />
-        </Box>
-        
-      );
+const MainSection = ({ page }) => {
+  return (
+    <Box>
+      <div className='bg1'>
+        <h1>{page}</h1>
+      </div>
+      <Nav2 page={page} />
+    </Box>
 
-    
-  }
+  );
 
-  export default MainSection
+
+}
+
+export default MainSection

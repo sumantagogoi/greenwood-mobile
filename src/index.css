@@ -35,3 +35,8 @@ html body{
   text-transform: uppercase;
   font-style: normal;
 }
+
+.bg1 {
+  background-image: url('/assets/images/gw-bg.jpg')!important;
+  padding-bottom: 2000px;
+}
