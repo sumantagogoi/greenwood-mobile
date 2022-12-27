@@ -39,4 +39,6 @@ html body{
 .bg1 {
   background-image: url('/assets/images/gw-bg.jpg')!important;
   padding-bottom: 2000px;
+  background-size: auto;
+  background-repeat: repeat;
 }
