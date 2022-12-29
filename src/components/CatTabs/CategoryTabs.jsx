@@ -9,7 +9,7 @@ import { useLocation } from 'react-router-dom';
 import './CategoryTabs.css'
 import theme from '../fonts';
 
-  
+
 const CategoryTabs = ({ page }) => {
 
   const gwItems = {
@@ -31,8 +31,8 @@ const CategoryTabs = ({ page }) => {
     "gwt-fnb": ["Mynah Bar", "Bagan Cafe", "Aroma"],
     "gwt-fnb-l": ["mynah", "bagan", "aroma"],
 
-    "gwr-event-bookings": ["Nameri Hall", "Nameri Lawn", "Majuli Hall", "Majuli Lawn","Umananda Hall","Kamarup Hall", "Pobitora Lawn"],
-    "gwr-event-bookings-l": ["nameri-hall", "nameri-lawn", "majuli-hall", "majuli-lawn", "umananda-hall", "kamarup-hall", "pobitora-lawn" ],
+    "gwr-event-bookings": ["Nameri Hall", "Nameri Lawn", "Majuli Hall", "Majuli Lawn", "Umananda Hall", "Kamarup Hall", "Pobitora Lawn"],
+    "gwr-event-bookings-l": ["nameri-hall", "nameri-lawn", "majuli-hall", "majuli-lawn", "umananda-hall", "kamarup-hall", "pobitora-lawn"],
 
     "gwg-event-bookings": ["Xorai"],
     "gwg-event-bookings-l": ["xorai"],
@@ -56,7 +56,7 @@ const CategoryTabs = ({ page }) => {
 
   const location = useLocation();
   const pathname = location.pathname;
- 
+
   const keys = pathname.split(/[/-]/);
   //console.log(keys+"asdasd")
   let ln = keys[2] == "event" ? keys[1] + "-" + keys[2] + "-" + keys[3] : keys[1] + "-" + keys[2];
@@ -65,22 +65,25 @@ const CategoryTabs = ({ page }) => {
   ln = exists ? ln : "gwm";
   return (
 
-      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1c3f35', position: 'sticky' }}>
+    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1c3f35', position: 'sticky' }}>
 
-        <Tabs variant='scrollable' allowScrollButtonsMobile value={pathname} theme={theme}>
-          {            
-              gwItems[ln].map((item, index) => {
-              const link = gwItems[`${ln}-l`][index];
-              return  exists ?  (
-                <Tab label={item} className= {index == gwItems[ln].length-1 ? "navTab2" :"navTab" }  value={`/${ln}-${link}`} component={Link} to={`/${ln}-${link}`} ></Tab>
-              ) : (
-                <Tab label={item}  className= {index == gwItems[ln].length-1 ? "navTab2" :"navTab" } value={`/${link}`}  component={Link} to={`/${link}`}  ></Tab>
-              );
-            })
-          }
-        </Tabs>
-      </Box>
- 
+      <Tabs variant='scrollable' allowScrollButtonsMobile sx={{
+             color: 'white'
+      }}
+        value={pathname} theme={theme}>
+        {
+          gwItems[ln].map((item, index) => {
+            const link = gwItems[`${ln}-l`][index];
+            return exists ? (
+              <Tab label={item} className={index == gwItems[ln].length - 1 ? "navTab2" : "navTab"} value={`/${ln}-${link}`} component={Link} to={`/${ln}-${link}`} ></Tab>
+            ) : (
+              <Tab label={item} className={index == gwItems[ln].length - 1 ? "navTab2" : "navTab"} value={`/${link}`} component={Link} to={`/${link}`}  ></Tab>
+            );
+          })
+        }
+      </Tabs>
+    </Box>
+
   );
 }
 
