@@ -2,7 +2,7 @@
     color:white!important;
     font-family: 'Savoy Regular'!important;
     border-right: 1px solid white!important;
-    border-left: 1px solid white!important;
+
     font-size: x-small!important;
 }
 
@@ -10,4 +10,10 @@
     color:grey!important;
     font-family: 'Savoy Regular'!important;
     text-decoration: underline;
+}
+
+.navTab2{
+    color:white!important;
+    font-family: 'Savoy Regular'!important;
+    font-size: x-small!important;
 }

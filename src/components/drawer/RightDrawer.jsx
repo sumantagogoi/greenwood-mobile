@@ -3,7 +3,7 @@ import { useState, useContext } from "react";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import { Box, Typography, Divider, List, ListItem, ListItemText, ListItemButton, IconButton } from '@mui/material';
 import { useNavigate, Link } from 'react-router-dom';
-
+import theme from '../fonts';
 import AppContext from '../../context/GreenwoodAppContext';
 import {GiHamburgerMenu} from 'react-icons/gi'
 
@@ -53,7 +53,7 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
               {/* <ListItemButton onClick={()=>changeNav('The Greenwood Resort Guwahati', 'gwr')} > */}
               <Link to="/gwr" onClick={handleClick}>
                 <ListItemButton>
-                  <ListItemText className="link-style2" primary='The Greenwood Resort, Guwahati' />
+                  <ListItemText className="link-style2" primary='The Greenwood Resort, Guwahati'  theme={theme}/>
                 </ListItemButton>
               </Link>
 

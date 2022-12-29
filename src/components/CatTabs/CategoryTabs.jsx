@@ -7,8 +7,9 @@ import { BiBed } from 'react-icons/bi'
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import './CategoryTabs.css'
+import theme from '../fonts';
 
-
+  
 const CategoryTabs = ({ page }) => {
 
   const gwItems = {
@@ -64,16 +65,16 @@ const CategoryTabs = ({ page }) => {
   ln = exists ? ln : "gwm";
   return (
 
-      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#173632', position: 'sticky' }}>
+      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1c3f35', position: 'sticky' }}>
 
-        <Tabs variant='scrollable' allowScrollButtonsMobile value={pathname} className="navTab"  >
+        <Tabs variant='scrollable' allowScrollButtonsMobile value={pathname} theme={theme}>
           {            
-            gwItems[ln].map((item, index) => {
+              gwItems[ln].map((item, index) => {
               const link = gwItems[`${ln}-l`][index];
               return  exists ?  (
-                <Tab label={item} className="navTab"  value={`/${ln}-${link}`} component={Link} to={`/${ln}-${link}`} ></Tab>
+                <Tab label={item} className= {index == gwItems[ln].length-1 ? "navTab2" :"navTab" }  value={`/${ln}-${link}`} component={Link} to={`/${ln}-${link}`} ></Tab>
               ) : (
-                <Tab label={item}  className="navTab" value={`/${link}`}  component={Link} to={`/${link}`}  ></Tab>
+                <Tab label={item}  className= {index == gwItems[ln].length-1 ? "navTab2" :"navTab" } value={`/${link}`}  component={Link} to={`/${link}`}  ></Tab>
               );
             })
           }
