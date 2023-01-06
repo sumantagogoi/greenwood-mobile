@@ -6,14 +6,15 @@
     font-size: x-small!important;
 }
 
-.navTab .Mui-selected{
-    color:grey!important;
-    font-family: 'Savoy Regular'!important;
-    text-decoration: underline;
-}
 
 .navTab2{
     color:white!important;
     font-family: 'Savoy Regular'!important;
     font-size: x-small!important;
+}
+
+.navTab .Mui-selected, .navTab2 .Mui-selected{
+    color:grey!important;
+    font-family: 'Savoy Regular'!important;
+    text-decoration: underline;
 }

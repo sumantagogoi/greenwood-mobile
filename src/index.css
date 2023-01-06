@@ -15,7 +15,7 @@ html body{
 
 @font-face {
   font-family: 'Savoy Regular';
-  src: url('https://thegreenwoodhotels.com/wp-content/uploads/2022/04/Savoy_Regular.ttf') format('truetype');
+  src: url('assets/Savoy_Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -38,7 +38,7 @@ html body{
 
 .bg1 {
   background-image: url('/assets/images/gw-bg.jpg')!important;
-  padding-bottom: 2000px;
-  background-size: 100% 100%;
+  padding-bottom: 100%;
+  background-size: auto;
   background-repeat: repeat;
 }
