@@ -28,7 +28,7 @@ html body{
 }
 
 
-.link-style2, .css-10hburv-MuiTypography-root {
+.link-style2 a, .link-style2 span {
   text-decoration: none!important;
   color: white;
   font-family: "Savoy Regular"!important;

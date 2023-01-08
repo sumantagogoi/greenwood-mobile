@@ -48,18 +48,18 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
         <Divider sx={{ border: 1 }} />
 
         <Box sx={{ mt: 2 }}>
-          <List>
-            <ListItem disablePadding >
+          <List className="link-style2">
+            <ListItem disablePadding  >
               {/* <ListItemButton onClick={()=>changeNav('The Greenwood Resort Guwahati', 'gwr')} > */}
-              <Link to="/gwr" onClick={handleClick}>
+              <Link to="/gwr" onClick={handleClick} >
                 <ListItemButton>
-                  <ListItemText className="link-style2" primary='The Greenwood Resort, Guwahati'  theme={theme}/>
+                  <ListItemText  primary='The Greenwood Resort, Guwahati'  theme={theme}/>
                 </ListItemButton>
               </Link>
 
             </ListItem>
 
-            <ListItem disablePadding >
+            <ListItem disablePadding className="link-style2" >
               <Link to="/gwt" onClick={handleClick}>
                 <ListItemButton>
                   <ListItemText className="link-style2" primary='The Greenwood, Tezpur' />
