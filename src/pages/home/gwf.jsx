@@ -1,13 +1,15 @@
 import { Box, Container } from '@mui/material'
+import './GW.css'
 
-const EventBookings = () => {
+
+const GWFamily = () => {
   return (
     <div className="scrollable">
   
 
       <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
 
-        <img src="/assets/images/party.jpg" alt="A description of the image" width="100%" />
+        <img src="/assets/images/gwf.jpg" alt="A description of the image" width="100%" />
 
       </Box>
       </div>
@@ -15,4 +17,4 @@ const EventBookings = () => {
       )
 }
 
-export default EventBookings
+      export default GWFamily

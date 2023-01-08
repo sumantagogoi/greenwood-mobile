@@ -42,7 +42,7 @@ const Nav2 = ({page}) => {
                     <Button>
                         <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <FontAwesomeIcon icon={solid('bed')} size="lg" color="white" />
-                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize:'x-small' }}>Stay & <br></br> Lodging</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize:'x-small' }}>Stay At <br></br> Greenwood</Typography>
                         </Stack>
                     </Button>
 
