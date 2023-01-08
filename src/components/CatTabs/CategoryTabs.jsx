@@ -4,8 +4,7 @@ import { FcHome } from 'react-icons/fc'
 import { MdFastfood } from 'react-icons/md'
 import { GiPartyPopper, GiSaloon } from 'react-icons/gi'
 import { BiBed } from 'react-icons/bi'
-import { Link } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './CategoryTabs.css'
 import theme from '../fonts';
 
