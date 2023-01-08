@@ -34,32 +34,21 @@ const Nav2 = ({ page }) => {
 
                 <Stack sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
 
-                    {/* <Link to={`/${gw1}`}>
+                    <Link to={`/${gw1}`}>
                         <Button>
                             <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', borderRight: '1px solid white', paddingRight: '15px' }}>
 
                                 <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small', }} dangerouslySetInnerHTML={{ __html: name }}></Typography>
                             </Stack>
                         </Button>
-                    </Link> */}
+                    </Link>
 
                     <Tabs sx={{
                         color: 'white', backgroundColor: '#1c3f45'
                     }}
                         value={pathname} theme={theme}>
                              
-                             
-                              <Tab label={
-                            <Button className="Navbt">
-                                <Stack sx={{borderRight: '1px solid white', paddingRight: '5px'}}>
-                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}dangerouslySetInnerHTML={{ __html: name }}></Typography>
-                                </Stack>
-                            </Button>
-                        }
-                            className="navTab2" value={`/`} component={Link} to={`/${gw2}stay`}>
-                        </Tab>
-
-
+            
                         <Tab label={
                             <Button className="Navbt">
                                 <Stack>
