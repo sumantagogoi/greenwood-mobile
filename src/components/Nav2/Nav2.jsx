@@ -30,7 +30,7 @@ const Nav2 = ({ page }) => {
 
     return (
         <Paper style={{ position: 'fixed', bottom: 0, width: '100%' }}>
-            <Box sx={{ display: 'flex', flexGrow: 3, pt: 1, justifyContent: 'center', backgroundColor: '#173632' }}>
+            <Box sx={{ display: 'flex', flexGrow: 2, pt: 0, justifyContent: 'center', backgroundColor: '#173632' }}>
 
                 <Stack sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
 
@@ -50,44 +50,44 @@ const Nav2 = ({ page }) => {
 
 
                         <Tab label={
-                        <Button >
-                            <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                <FontAwesomeIcon icon={solid('bed')} size="lg" color="white" />
-                                <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Stay At <br></br> Greenwood</Typography>
-                            </Stack>
-                        </Button>
-                        } 
-                        className="navTab2" value={`/${gw2}stay`} component={Link} to={`/${gw2}stay`}>
+                            <Button sx={{ display: 'flex', flexGrow: 1, p: 0 }}>
+                                <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                    <FontAwesomeIcon icon={solid('bed')} size="lg" color="white" />
+                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Stay At <br></br> Greenwood</Typography>
+                                </Stack>
+                            </Button>
+                        }
+                            className="navTab2" value={`/${gw2}stay`} component={Link} to={`/${gw2}stay`}>
                         </Tab>
 
                         <Tab label={
-                             <Button>
-                             <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                 <FontAwesomeIcon icon={solid('utensils')} size="lg" color="white" />
-                                 <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize:'x-small' }}>Food & <br></br>Beverages</Typography>
-                             </Stack>
-                         </Button>
+                            <Button sx={{ display: 'flex', flexGrow: 1, p: 0 }}>
+                                <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                    <FontAwesomeIcon icon={solid('utensils')} size="lg" color="white" />
+                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Food & <br></br>Beverages</Typography>
+                                </Stack>
+                            </Button>
                         } className="navTab2" value={`/${gw2}fnb`} component={Link} to={`/${gw2}fnb`} >
                         </Tab>
 
                         <Tab label={
-                            <Button>
-                            <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                <FontAwesomeIcon icon={solid('champagne-glasses')} size="lg" color="white" />
-                                <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize:'x-small'  }}>Events &<br></br> Bookings</Typography>
-                            </Stack>
-                        </Button>
+                            <Button sx={{ display: 'flex', flexGrow: 1, p: 0 }}>
+                                <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                    <FontAwesomeIcon icon={solid('champagne-glasses')} size="lg" color="white" />
+                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Events &<br></br> Bookings</Typography>
+                                </Stack>
+                            </Button>
                         } className="navTab2" value={`/${gw2}event-bookings`} component={Link} to={`/${gw2}event-bookings`} >
                         </Tab>
 
 
                         <Tab label={
-                            <Button>
-                            <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                <FontAwesomeIcon icon={solid('spa')} size="lg" color="white" />
-                                <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize:'x-small' }}>Spa & <br></br> Wellness</Typography>
-                            </Stack>
-                        </Button>
+                            <Button sx={{ display: 'flex', flexGrow: 1, p: 0 }}>
+                                <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                    <FontAwesomeIcon icon={solid('spa')} size="lg" color="white" />
+                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Spa & <br></br> Wellness</Typography>
+                                </Stack>
+                            </Button>
                         } className="navTab2" value={`/${gw2}spa-wellness`} component={Link} to={`/${gw2}spa-wellness`} >
                         </Tab>
 
