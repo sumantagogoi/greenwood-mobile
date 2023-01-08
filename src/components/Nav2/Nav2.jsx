@@ -30,7 +30,7 @@ const Nav2 = ({ page }) => {
 
     return (
         <Paper style={{ position: 'fixed', bottom: 0, width: '100%' }}>
-            <Box sx={{ display: 'flex', flexGrow: 2, pt: 0, justifyContent: 'center', backgroundColor: '#173632' }}>
+            <Box sx={{ display: 'flex', flexGrow: 2, pt: 1, justifyContent: 'center', backgroundColor: '#173632' }}>
 
                 <Stack sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
 
@@ -50,7 +50,7 @@ const Nav2 = ({ page }) => {
 
 
                         <Tab label={
-                            <Button sx={{ display: 'flex', flexGrow: 1, p: 0 }}>
+                            <Button sx={{ p: 0, m:-1 }}>
                                 <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                     <FontAwesomeIcon icon={solid('bed')} size="lg" color="white" />
                                     <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Stay At <br></br> Greenwood</Typography>
@@ -61,7 +61,7 @@ const Nav2 = ({ page }) => {
                         </Tab>
 
                         <Tab label={
-                            <Button sx={{ display: 'flex', flexGrow: 1, p: 0 }}>
+                            <Button sx={{  p: 0, m:-1 }}>
                                 <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                     <FontAwesomeIcon icon={solid('utensils')} size="lg" color="white" />
                                     <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Food & <br></br>Beverages</Typography>
@@ -71,7 +71,7 @@ const Nav2 = ({ page }) => {
                         </Tab>
 
                         <Tab label={
-                            <Button sx={{ display: 'flex', flexGrow: 1, p: 0 }}>
+                            <Button sx={{  p: 0, m:-1 }}>
                                 <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                     <FontAwesomeIcon icon={solid('champagne-glasses')} size="lg" color="white" />
                                     <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Events &<br></br> Bookings</Typography>
@@ -82,7 +82,7 @@ const Nav2 = ({ page }) => {
 
 
                         <Tab label={
-                            <Button sx={{ display: 'flex', flexGrow: 1, p: 0 }}>
+                            <Button sx={{  p: 0, m:-1 }}>
                                 <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                     <FontAwesomeIcon icon={solid('spa')} size="lg" color="white" />
                                     <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Spa & <br></br> Wellness</Typography>
