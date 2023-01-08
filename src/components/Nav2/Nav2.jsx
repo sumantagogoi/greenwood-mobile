@@ -36,7 +36,7 @@ const Nav2 = ({ page }) => {
 
                     <Link to={`/${gw1}`}>
                         <Button>
-                            <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', borderRight: '1px solid white', paddingRight: '15px' }}>
+                            <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', borderRight: '1px solid white', paddingRight: '8px' }}>
 
                                 <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small', }} dangerouslySetInnerHTML={{ __html: name }}></Typography>
                             </Stack>
