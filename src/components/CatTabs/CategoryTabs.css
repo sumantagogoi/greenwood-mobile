@@ -2,7 +2,6 @@
     color:white!important;
     font-family: 'Savoy Regular'!important;
     border-right: 1px solid white!important;
-
     font-size: x-small!important;
 }
 
@@ -11,6 +10,7 @@
     color:white!important;
     font-family: 'Savoy Regular'!important;
     font-size: x-small!important;
+    margin-left: 3px;    
 }
 
 a.navTab.Mui-selected span, .navTab2.Mui-selected span{

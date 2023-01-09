@@ -5,7 +5,10 @@ button.Navbt {
     margin-right: -15px; */
 }
 
-a.navTab2 {
+a.navTab3 {
+    color:white!important;
+    font-family: 'Savoy Regular'!important;
+    font-size: x-small!important;
     margin: 0px; 
     padding: 1px;
     min-width: 0px;

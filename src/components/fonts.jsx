@@ -16,11 +16,30 @@ const theme = createTheme({
             font-style: normal;
             font-display: swap;
             font-weight: 400;
-            src: local('SavoyRegular'), local('SavoyRegular), url(${SavoyRegular}) format('TrueType');           
+            src: local('SavoyRegular'), local('SavoyRegular'), url(${SavoyRegular}) format('TrueType');           
           }
         `,
       },
     },
-  });
+  },
+//   typography: {
+//     fontFamily: 'Avenir Book, Arial',
+//   },
+//   components: {
+//     MuiCssBaseline: {
+//       styleOverrides: `
+//         @font-face {
+//           font-family: 'Avenir Book';
+//           font-style: normal;
+//           font-display: swap;
+//           font-weight: 400;
+//           src: local('AvenirBook'), local('AvenirBook'), url(${AvenirBook}) format('TrueType');           
+//         }
+//       `,
+//     },
+//   },
+// },
+  
+  );
 
   export default theme

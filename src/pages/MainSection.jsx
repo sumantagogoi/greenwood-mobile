@@ -16,6 +16,7 @@ import FNB from './FNB';
 import EventBookings from './EventBookings';
 import Events2 from './Events2';
 import FNB2 from './FNB2';
+import Catalog from './Catalog';
 
 
 const MainSection = ({ page }) => {
@@ -29,7 +30,7 @@ const MainSection = ({ page }) => {
     "gw-family": GWFamily, 
     "spa-wellness": Kayana,
     "gwr": GWRIndex, 
-    "gwr-stay": GWRStay, 
+    "gwr-stay": Catalog, 
     "gwr-stay-standard-room": Rooms, 
     "gwr-stay-premier-room": Rooms,  
     "gwr-stay-luxury-room": Rooms,  
@@ -78,7 +79,7 @@ const MainSection = ({ page }) => {
       };
 
   const Compnt = PathToComponent[page];
-  const Elmnt = React.createElement(Compnt, {});
+  const Elmnt = React.createElement(Compnt, {page});
 
   return (
     <Box>      

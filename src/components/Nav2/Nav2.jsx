@@ -53,31 +53,31 @@ const Nav2 = ({ page }) => {
                             <Button className="Navbt">
                                 <Stack>
                                     <FontAwesomeIcon icon={solid('bed')} size="md" color="white" />
-                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Stay At <br></br> Greenwood</Typography>
+                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'xx-small' }}>Stay At <br></br> Greenwood</Typography>
                                 </Stack>
                             </Button>
                         }
-                            className="navTab2" value={`/${gw2}stay`} component={Link} to={`/${gw2}stay`}>
+                            className="navTab3" value={`/${gw2}stay`} component={Link} to={`/${gw2}stay`}>
                         </Tab>
 
                         <Tab label={
                             <Button className="Navbt">
                                 <Stack >
                                     <FontAwesomeIcon icon={solid('utensils')} size="md" color="white" />
-                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Food & <br></br>Beverages</Typography>
+                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'xx-small' }}>Food & <br></br>Beverages</Typography>
                                 </Stack>
                             </Button>
-                        } className="navTab2" value={`/${gw2}fnb`} component={Link} to={`/${gw2}fnb`} >
+                        } className="navTab3" value={`/${gw2}fnb`} component={Link} to={`/${gw2}fnb`} >
                         </Tab>
 
                         <Tab label={
                             <Button className="Navbt">
                                 <Stack >
                                     <FontAwesomeIcon icon={solid('champagne-glasses')} size="md" color="white" />
-                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Events &<br></br> Bookings</Typography>
+                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'xx-small' }}>Events &<br></br> Bookings</Typography>
                                 </Stack>
                             </Button>
-                        } className="navTab2" value={`/${gw2}event-bookings`} component={Link} to={`/${gw2}event-bookings`} >
+                        } className="navTab3" value={`/${gw2}event-bookings`} component={Link} to={`/${gw2}event-bookings`} >
                         </Tab>
 
 
@@ -85,10 +85,10 @@ const Nav2 = ({ page }) => {
                             <Button className="Navbt">
                                 <Stack>
                                     <FontAwesomeIcon icon={solid('spa')} size="md" color="white" />
-                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small' }}>Spa & <br></br> Wellness</Typography>
+                                    <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'xx-small' }}>Spa & <br></br> Wellness</Typography>
                                 </Stack>
                             </Button>
-                        } className="navTab2" value={`/${gw2}spa-wellness`} component={Link} to={`/${gw2}spa-wellness`} >
+                        } className="navTab3" value={`/${gw2}spa-wellness`} component={Link} to={`/${gw2}spa-wellness`} >
                         </Tab>
 
                     </Tabs>
