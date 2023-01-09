@@ -17,13 +17,14 @@ import EventBookings from './EventBookings';
 import Events2 from './Events2';
 import FNB2 from './FNB2';
 import Catalog from './Catalog';
+import GwStay from './home/GwStay';
 
 
 const MainSection = ({ page }) => {
 
   const PathToComponent = {
     "": GW,    
-    "stay": GW, 
+    "stay": GwStay, 
     "fnb": FNB, 
     "event-bookings": EventBookings, 
     "contact": GWContact, 
