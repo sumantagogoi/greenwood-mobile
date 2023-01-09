@@ -82,8 +82,8 @@ const MainSection = ({ page }) => {
   const Elmnt = React.createElement(Compnt, {page});
 
   return (
-    <Box>      
-      <Box className='bg1'>
+    <Box sx={{ display: 'flex', flexDirection: 'column', }} className=" bg1 scrollable-y">     
+      <Box sx={{ display: 'flex',  flexDirection: 'row', mt: 10 }}>
         { Elmnt }
       </Box>      
       <Nav2 page={page}/>

@@ -4,15 +4,13 @@ import { Box, Container } from '@mui/material'
 
 const Kayana = () => {
   return (
-    <div className="scrollable">
-  
 
-      <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', mt: -10 }}>
 
         <img src="/assets/images/kayana.jpg" alt="A description of the image" width="100%" />
 
       </Box>
-      </div>
+
 
       )
 }

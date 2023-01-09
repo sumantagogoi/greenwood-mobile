@@ -64,7 +64,7 @@ const CategoryTabs = ({ page }) => {
   ln = exists ? ln : "gwm";
   return (
 
-    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1c3f35', position: 'sticky' }}>
+    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1c3f35', position: 'sticky', zIndex: 1 }}>
 
       <Tabs variant='scrollable' allowScrollButtonsMobile sx={{
              color: 'white'

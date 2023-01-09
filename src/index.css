@@ -45,19 +45,31 @@ html body{
 
 .bg1 {
   background-image: url('/assets/images/gw-bg.jpg')!important;
-  padding-bottom: 100%;
+
   background-size: auto;
   background-repeat: repeat;
 }
 
 .scrollable {
   overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
 }
 
 .scrollable-x {
   overflow-x: scroll ;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
 }
 
 .scrollable-y {
   overflow-y: scroll ;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
 }
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+ .scrollable-y::-webkit-scrollbar {
+  display: none;
+}
+

@@ -29,9 +29,9 @@ const Catalog = ({ page }) => {
 
 
   return (
-    <Paper variant="scroll" style={{ height: '500px' }}>
-      <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: 'column' }}>
-        <Box sx={{ display: "flex", alignItems: "center", flexDirection: 'row', mt: 10 }}>
+   
+      <Box sx={{ display: "flex", alignItems: "center",  flexDirection: 'column'}} >
+        <Box sx={{ display: "flex", alignItems: "center", flexDirection: 'row' }}>
           <img src="https://thegreenwoodhotels.com/wp-content/uploads/2022/05/gwexp.png" alt="Logo" style={{ width: '50px', height: '50px', marginRight: '8px' }} />
           <Typography variant="h4" style={{ fontFamily: 'Savoy Regular', textTransform: 'uppercase' }}>
             {places[page]["title"]}
@@ -57,7 +57,7 @@ const Catalog = ({ page }) => {
         }
 
       </Box>
-    </Paper>
+ 
 
 
   )
