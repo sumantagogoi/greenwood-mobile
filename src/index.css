@@ -7,11 +7,7 @@
   box-sizing: border-box;
 
 }
-html body{
-  height:100vh;
-  overflow: hidden;
-  color: inherit;
-}
+
 
 @font-face {
   font-family: 'Savoy Regular';
@@ -25,6 +21,20 @@ html body{
   src: url('assets/Avenir-Book.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'An Either Lifetime';
+  src: url('assets/An-Either-Lifetime.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html body{
+  font-family: 'Avenir Book';
+  height:100vh;
+  overflow: hidden;
+  color: #707070;
 }
 
 

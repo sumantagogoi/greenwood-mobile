@@ -5,8 +5,8 @@ import CategoryTabs from '../../components/CatTabs/CategoryTabs'
 
 const GWTIndex = () => {
   return (
-    <Box sx={{display:'flex', flexDirection:'column', height:'100vh'}}>
-     Greenwood Tezpur
+    <Box sx={{display:'flex', flexDirection:'column'}}>
+
      <img src="/assets/images/gwt.jpg" alt="A description of the image" width="100%" height="100%" />
   
   </Box>

@@ -54,7 +54,7 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
           <List className="link-style2">
 
             <ListItem disablePadding className="link-style2" >
-              <Link to="/gw" onClick={handleClick}>
+              <Link to="/" onClick={handleClick}>
                 <ListItemButton>
                   <ListItemText className="link-style2" primary='Home' />
                 </ListItemButton>
