@@ -48,8 +48,8 @@ const CategoryTabs = ({ page }) => {
     "gwt-spa": ["Kayana"],
     "gwt-spa-l": ["kayana"],
 
-    "gwm": ["The Greenwood Resort", "The Greenwood, Tezpur", "The Greenwood, Guwahati", "The Greenwood Family", "Contact"],
-    "gwm-l": ["gwr", "gwt", "gwg", "gw-family", "contact"]
+    "gwm": ["Home","The Greenwood Resort", "The Greenwood, Tezpur", "The Greenwood, Guwahati", "The Greenwood Family", "Contact"],
+    "gwm-l": ["","gwr", "gwt", "gwg", "gw-family", "contact"]
 
   }
 
