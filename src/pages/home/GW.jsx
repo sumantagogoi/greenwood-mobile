@@ -25,7 +25,7 @@ const GW = () => {
                     <img className='about-image' src='https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Fade-Final-Sketch-back2.png' width="60%" />
                 </Box>
 
-                <Typography variant='h4' sx={{fontWeight:'bold', fontFamily: 'Savoy Regular'}}>ABOUT THE GREENWOOD</Typography>
+                <Typography variant='h5' sx={{fontWeight:'bold', fontFamily: 'Savoy Regular'}}>ABOUT THE GREENWOOD</Typography>
 
                 <Typography sx={{fontWeight:'bold', mt:2}} >সেউজৰ পদচিহ্ন গ্ৰীণউডলৈ স্বাগতম  | </Typography>
 
@@ -35,7 +35,7 @@ const GW = () => {
 
                 <Typography variant='body1' sx={{mt:2}}>The Greenwood Hotels and Resorts, a boutique hospitality brand that echoes the traits of an evergreen forest, humbly opens the gateway to the largely unexplored lands of the Seven Sisters of Northeast India, where natural wonders and vibrant traditions abound. Step in to experience the grandeur of this corner of the country in a setting that consciously blends luxury with nature.</Typography>
 
-                <Typography sx={{m:4, fontFamily:'An Either Lifetime', fontSize:'30px'}}> Serenity and Calmness</Typography>
+                <Typography sx={{m:4, fontFamily:'An Either Lifetime', fontSize:'25px'}}> Serenity and Calmness</Typography>
               
                 <Typography sx={{}}> Amongst the mountains and lanes</Typography>
                 

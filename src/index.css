@@ -44,6 +44,18 @@ html body{
   font-style: normal;
 }
 
+.link-style3 a, .link-style3 span {
+  text-decoration: none!important;
+  color: #707070;
+  font-family: "Savoy Regular"!important;
+  text-transform: uppercase;
+  font-style: normal;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
 .bg1 {
   background-image: url('/assets/images/gw-bg.jpg')!important;
 

@@ -36,21 +36,21 @@ const CatalogGW = ({ page }) => {
             <img className='about-image' src={`${GWinfo[page]["img"]}`} width="100%" />
           </Box>
 
-          <Typography variant='h5' sx={{ fontWeight: 'bold', fontFamily: "Savoy Regular", textTransform: "uppercase" }}>
+          <Typography variant='h6' sx={{ fontWeight: 'bold', fontFamily: "Savoy Regular", textTransform: "uppercase" }}>
           {`${GWinfo[page]["title"]}`}
           </Typography>
             
-          <Typography sx={{ mt: 2, width: "70%", textAlign: "center" }} >
+          <Typography sx={{ mt: 2, width: "90%", textAlign: "center" }} >
           {`${GWinfo[page]["text"]}`}
           </Typography>
 
 
-          <Typography variant='h5' sx={{ fontWeight: 'bold', fontFamily: "Savoy Regular", textTransform: "uppercase", mt: 7, mb: 5 }}>
+          <Typography variant='h7' sx={{ fontWeight: 'bold', fontFamily: "Savoy Regular", textTransform: "uppercase", mt: 8, mb: 2 }}>
             Select Property to know More
           </Typography>
 
 
-          <Box sx={{ display: 'flex', textAlign: 'center' }}>
+          <Box sx={{ display: 'flex', textAlign: 'center' , mb: 15}}>
             <Link to="/gwr-stay">
               <img src="/assets/images/gwr-property.jpg" alt="GWR" width="80%" />
               

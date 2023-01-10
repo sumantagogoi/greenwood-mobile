@@ -121,9 +121,9 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
             </ListItem>
 
             <ListItem disablePadding  >
-              <Link to="/book" onClick={handleClick}>
+              <Link to="/stay" onClick={handleClick}>
                 <ListItemButton>
-                  <ListItemText className="link-style2" primary='Book Rooms' />
+                  <ListItemText className="link-style3" primary='Book Rooms' />
                 </ListItemButton>
               </Link>
             </ListItem>

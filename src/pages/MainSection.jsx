@@ -18,6 +18,8 @@ import Events2 from './Events2';
 import FNB2 from './FNB2';
 import Catalog from './Catalog';
 import CatalogGW from './home/Catalog2';
+import DiscoverAssam from './home/DiscoverAssam';
+import GWLive from './home/GWLive';
 
 
 const MainSection = ({ page }) => {
@@ -76,14 +78,17 @@ const MainSection = ({ page }) => {
     "gwt-event-bookings-orang-hall": Events2, 
     "gwt-event-bookings-orang-lawn": Events2, 
     "gwt-spa-kayana": Kayana, 
-    "gwt-spa-wellness": Kayana, 
+    "gwt-spa-wellness": Kayana,
+    "discover-assam": DiscoverAssam,
+    "gw-live": GWLive,
+
       };
 
   const Compnt = PathToComponent[page];
   const Elmnt = React.createElement(Compnt, {page});
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', height: "90vh"}} className=" bg1 scrollable-y">     
+    <Box sx={{ display: 'flex', flexDirection: 'column', height: "75vh"}} className=" bg1 scrollable-y">     
       <Box sx={{ display: 'flex',  flexDirection: 'row', mt: 10 }}>
         { Elmnt }
       </Box>      

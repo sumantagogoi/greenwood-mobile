@@ -62,6 +62,8 @@ const App = () => {
   ,'gwt-event-bookings-orang-lawn' 
   ,'gwt-spa-kayana' 
   ,'gwt-spa-wellness'  
+  ,'discover-assam'
+  ,'gw-live'
 ]
 
 
