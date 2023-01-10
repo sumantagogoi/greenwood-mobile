@@ -89,7 +89,7 @@ const MainSection = ({ page }) => {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: "75vh"}} className=" bg1 scrollable-y">     
-      <Box sx={{ display: 'flex',  flexDirection: 'row', mt: 10 }}>
+      <Box sx={{ display: 'flex',  flexDirection: 'row', mt: 6 }}>
         { Elmnt }
       </Box>      
       <Nav2 page={page}/>
