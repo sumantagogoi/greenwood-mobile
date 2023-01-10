@@ -36,8 +36,8 @@ const CategoryTabs = ({ page }) => {
     "gwg-event-bookings": ["Xorai"],
     "gwg-event-bookings-l": ["xorai"],
 
-    "gwt-event-bookings": ["Orang Hall", "Orang Lawn"],
-    "gwt-event-bookings-l": ["orang-hall", "orang-lawn"],
+    "gwt-event-bookings": ["Orang Hall", "Orang Lawn", "Gorh Banquet", "Greenwood Boardrooms"],
+    "gwt-event-bookings-l": ["orang-hall", "orang-lawn", "gorh-hall", "gw-boardrooms"],
 
     "gwr-spa": ["Kayana"],
     "gwr-spa-l": ["kayana"],
