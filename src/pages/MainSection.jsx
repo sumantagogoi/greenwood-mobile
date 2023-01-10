@@ -17,19 +17,19 @@ import EventBookings from './EventBookings';
 import Events2 from './Events2';
 import FNB2 from './FNB2';
 import Catalog from './Catalog';
-import GwStay from './home/GwStay';
+import CatalogGW from './home/Catalog2';
 
 
 const MainSection = ({ page }) => {
 
   const PathToComponent = {
     "": GW,    
-    "stay": GwStay, 
-    "fnb": FNB, 
-    "event-bookings": EventBookings, 
+    "stay": CatalogGW, 
+    "fnb": CatalogGW, 
+    "event-bookings": CatalogGW,  
     "contact": GWContact, 
     "gw-family": GWFamily, 
-    "spa-wellness": Kayana,
+    "spa-wellness": CatalogGW, 
     "gwr": GWRIndex, 
     "gwr-stay": Catalog, 
     "gwr-stay-standard-room": Rooms, 
@@ -83,7 +83,7 @@ const MainSection = ({ page }) => {
   const Elmnt = React.createElement(Compnt, {page});
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', }} className=" bg1 scrollable-y">     
+    <Box sx={{ display: 'flex', flexDirection: 'column', height: "90vh"}} className=" bg1 scrollable-y">     
       <Box sx={{ display: 'flex',  flexDirection: 'row', mt: 10 }}>
         { Elmnt }
       </Box>      
