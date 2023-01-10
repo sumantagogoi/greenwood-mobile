@@ -22,14 +22,14 @@ const GW = () => {
 
       </Box> */}
 
-      <Box sx={{ display: 'flex', mb: 4 }}>
+      <Box sx={{ display: 'flex', mb: 5 }}>
         <Container maxWidth='md'>
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
             <Box sx={{}}>
               <img className='about-image' src='https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Reception3.png' width="90%" />
             </Box>
 
-            <Typography variant='h5' sx={{ fontWeight: 'bold', fontFamily: 'Savoy Regular' }}>ABOUT THE GREENWOOD RESORT</Typography>
+            <Typography variant='h5' sx={{ fontWeight: 'bold', fontFamily: 'Savoy Regular' }}>ABOUT <br></br>THE GREENWOOD RESORT</Typography>
 
 
             <Typography variant='body1' sx={{ mt: 2 }}>
@@ -44,7 +44,7 @@ const GW = () => {
 
             <Typography sx={{ m: 4, fontFamily: 'An Either Lifetime', fontSize: '20px' }}> Gateway to The North-East</Typography>
 
-            <Typography sx={{}}> Amongst the mountains and lanes</Typography>
+         
 
           </Box>
         </Container>

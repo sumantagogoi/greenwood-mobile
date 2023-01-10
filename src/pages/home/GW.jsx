@@ -4,8 +4,8 @@ import './GW.css'
 
 const GW = () => {
   return (
-    <Box sx={{ mt :-10}}>
-      <Box sx={{ display: 'flex', flexDirection: 'column', height: '50vh' }}>
+    <Box sx={{ mt :-10,}}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', mb: 7 }}>
         <div className="video-container">
           <video className="video-bg" autoPlay loop>
             <source src="https://thegreenwoodhotels.com/wp-content/uploads/2022/04/header-video.mp4" type="video/mp4" />
@@ -27,17 +27,16 @@ const GW = () => {
 
                 <Typography variant='h5' sx={{fontWeight:'bold', fontFamily: 'Savoy Regular'}}>ABOUT THE GREENWOOD</Typography>
 
-                <Typography sx={{fontWeight:'bold', mt:2}} >সেউজৰ পদচিহ্ন গ্ৰীণউডলৈ স্বাগতম  | </Typography>
+                <Typography sx={{fontWeight:'bold', mt:2, fontSize: 12}} >সেউজৰ পদচিহ্ন গ্ৰীণউডলৈ স্বাগতম  | </Typography>
 
-                <Typography variant='subtitle' sx={{mt:1}}>Assamese: "Seujor Podosihna Greenwood Loi Swagatam."</Typography>
 
-                <Typography variant='body1' sx={{mt:1}}>English: Welcome to The Greenwood, the footprint of greenery. </Typography>
+                <Typography variant='body1' sx={{mt:1, fontFamily: "Savoy Italic", fontSize: 12}}>Welcome to The Greenwood, the footprint of greenery. </Typography>
 
-                <Typography variant='body1' sx={{mt:2}}>The Greenwood Hotels and Resorts, a boutique hospitality brand that echoes the traits of an evergreen forest, humbly opens the gateway to the largely unexplored lands of the Seven Sisters of Northeast India, where natural wonders and vibrant traditions abound. Step in to experience the grandeur of this corner of the country in a setting that consciously blends luxury with nature.</Typography>
+                <Typography variant='body1' sx={{mt:4}}>The Greenwood Hotels and Resorts, a boutique hospitality brand that echoes the traits of an evergreen forest, humbly opens the gateway to the largely unexplored lands of the Seven Sisters of Northeast India, where natural wonders and vibrant traditions abound. Step in to experience the grandeur of this corner of the country in a setting that consciously blends luxury with nature.</Typography>
 
                 <Typography sx={{m:4, fontFamily:'An Either Lifetime', fontSize:'25px'}}> Serenity and Calmness</Typography>
               
-                <Typography sx={{}}> Amongst the mountains and lanes</Typography>
+                <Typography sx={{fontFamily: "Savoy Italic"}}> Amongst the mountains and lanes</Typography>
                 
             </Box>
         </Container>

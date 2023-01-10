@@ -26,7 +26,7 @@ const GWGIndex = () => {
               {/* <img className='about-image' src='https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Reception3.png' width="90%" /> */}
             </Box>
 
-            <Typography variant='h5' sx={{ fontWeight: 'bold', fontFamily: 'Savoy Regular' }}>ABOUT THE GREENWOOD, GUWAHATI </Typography>
+            <Typography variant='h5' sx={{ fontWeight: 'bold', fontFamily: 'Savoy Regular' }}>ABOUT <br></br>THE GREENWOOD, <br></br>GUWAHATI </Typography>
 
 
             <Typography variant='body1' sx={{ mt: 2 }}>

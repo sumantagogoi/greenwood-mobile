@@ -108,13 +108,13 @@ const Catalog = ({ page }) => {
    
       <Box sx={{ display: "flex", alignItems: "center",  flexDirection: 'column', mb: 3}} >
         <Box sx={{ display: "flex", alignItems: "center", flexDirection: 'row' }}>
-          <img src="https://thegreenwoodhotels.com/wp-content/uploads/2022/05/gwexp.png" alt="Logo" style={{ width: '45px', height: '45px', marginRight: '8px' }} />
-          <Typography variant="h5" style={{ fontFamily: 'Savoy Regular', textTransform: 'uppercase' }}>
+          <img src="https://thegreenwoodhotels.com/wp-content/uploads/2022/05/gwexp.png" alt="Logo" style={{ width: '35px', height: '35px', marginRight: '5px' }} />
+          <Typography variant="h5" style={{ fontFamily: 'Savoy Regular', textTransform: 'uppercase', textAlign: "left" }}>
             {places[page]["title"]}
           </Typography>
         </Box>
-        <Box sx={{ display: "flex", mt: 2, alignItems: "center", justifyContent: "center", flexDirection: 'row' }} >
-          <Typography variant="body1" sx={{ fontFamily: 'Avenir Book', width: '80%', align: "center", textAlign: "center" }}>
+        <Box sx={{ display: "flex", mt: 2, justifyContent: "center", flexDirection: 'row' }} >
+          <Typography variant="body1" sx={{ fontFamily: 'Avenir Book', width: '90%', align: "center", textAlign: "center" }}>
             {places[page]["intro"]}
           </Typography>
         </Box>
