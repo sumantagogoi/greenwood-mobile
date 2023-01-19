@@ -20,6 +20,7 @@ import Catalog from './Catalog';
 import CatalogGW from './home/Catalog2';
 import DiscoverAssam from './home/DiscoverAssam';
 import GWLive from './home/GWLive';
+import Room from '../components/rooms/Room';
 
 
 const MainSection = ({ page }) => {
@@ -83,6 +84,7 @@ const MainSection = ({ page }) => {
     "gwt-spa-wellness": Kayana,
     "discover-assam": DiscoverAssam,
     "gw-live": GWLive,
+   
 
       };
 

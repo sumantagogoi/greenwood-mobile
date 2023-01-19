@@ -3,6 +3,7 @@ import Home from './pages/home/Home'
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Room from './components/rooms/Room';
 
 
 
@@ -78,7 +79,8 @@ const App = () => {
           {
             pages.map(item => 
               (<Route key={item} path={`/${item}`} element={ <Home page={`${item}`} />} />))            
-          }                
+          } 
+        <Route path='/room_detail' element={<Room/>}/>               
       </Routes>
     </>
   )
