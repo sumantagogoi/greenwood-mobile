@@ -35,7 +35,7 @@ const MainSection = ({ page }) => {
     "spa-wellness": CatalogGW, 
     "gwr": GWRIndex, 
     "gwr-stay": Catalog, 
-    "gwr-stay-standard-room": Rooms, 
+    "gwr-stay-standard-room": Room, 
     "gwr-stay-premier-room": Rooms,  
     "gwr-stay-luxury-room": Rooms,  
     "gwr-stay-greenwood-suite": Rooms,  
