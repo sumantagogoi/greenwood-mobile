@@ -21,6 +21,7 @@ import CatalogGW from './home/Catalog2';
 import DiscoverAssam from './home/DiscoverAssam';
 import GWLive from './home/GWLive';
 import Room from '../components/rooms/Room';
+import Events from '../components/Events/Events';
 
 
 const MainSection = ({ page }) => {
@@ -45,7 +46,7 @@ const MainSection = ({ page }) => {
     "gwr-fnb-aroma": FNB2, 
     "gwr-fnb-jolpan": FNB2, 
     "gwr-event-bookings": Catalog, 
-    "gwr-event-bookings-majuli-hall": Events2, 
+    "gwr-event-bookings-majuli-hall": Events, 
     "gwr-event-bookings-majuli-lawn": Events2,
     "gwr-event-bookings-kamarup-hall": Events2, 
     "gwr-event-bookings-pobitora-lawn": Events2, 

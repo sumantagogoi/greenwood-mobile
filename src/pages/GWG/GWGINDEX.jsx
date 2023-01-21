@@ -13,11 +13,7 @@ const GWGIndex = () => {
   ]
 
   return (
-    <Box sx={{ mt: 3 }}>
-      {/* <Box sx={{ display: 'flex', flexDirection: 'column', height: '50vh' }}>
-        <ImageSlider images={images} />
-
-      </Box> */}
+   
 
       <Box sx={{ display: 'flex', mb: 4 }}>
         <Container maxWidth='md'>
@@ -42,16 +38,9 @@ const GWGIndex = () => {
               dining and around-the-clock professional management awaits you at this home away from home.
 
             </Typography>
-
-
-
-
-
           </Box>
         </Container>
       </Box >
-
-    </Box >
 
   )
 }

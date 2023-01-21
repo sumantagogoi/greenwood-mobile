@@ -4,19 +4,6 @@ import './GW.css'
 
 const GW = () => {
   return (
-    <Box sx={{ mt :-10,}}>
-      <Box sx={{ display: 'flex', flexDirection: 'column', mb: 7 }}>
-        <div className="video-container">
-          <video className="video-bg" autoPlay loop>
-            <source src="https://thegreenwoodhotels.com/wp-content/uploads/2022/04/header-video.mp4" type="video/mp4" />
-
-          </video>
-
-          <img src="https://thegreenwoodhotels.com/wp-content/uploads/2022/04/Group-463.png" alt="Overlay Image" className="image-overlay" />
-          {/* Other JSX elements here */}
-        </div>
-
-      </Box>
 
       <Box sx={{display:'flex', mb:4}}>
         <Container maxWidth='md'>
@@ -41,9 +28,6 @@ const GW = () => {
             </Box>
         </Container>
    </Box>
-
-    </Box>
-
   )
 }
 

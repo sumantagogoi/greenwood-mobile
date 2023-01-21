@@ -16,11 +16,8 @@ const GWTIndex = () => {
   ]
 
   return (
-    <Box sx={{ mt: 3 }}>
-      {/* <Box sx={{ display: 'flex', flexDirection: 'column', height: '50vh' }}>
-        <ImageSlider images={images} />
-
-      </Box> */}
+   
+    
 
       <Box sx={{ display: 'flex', pb: 5 }}>
         <Container maxWidth='md'>
@@ -68,7 +65,7 @@ const GWTIndex = () => {
     </Container>
       </Box >
 
-    </Box >
+   
 
   )
 }

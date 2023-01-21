@@ -4,6 +4,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Room from './components/rooms/Room';
+import Events from './components/Events/Events';
 
 
 
@@ -80,7 +81,7 @@ const App = () => {
             pages.map(item => 
               (<Route key={item} path={`/${item}`} element={ <Home page={`${item}`} />} />))            
           } 
-        <Route path='/room_detail' element={<Room/>}/>               
+        {/* <Route path='/event' element={<Events/>}/>                */}
       </Routes>
     </>
   )

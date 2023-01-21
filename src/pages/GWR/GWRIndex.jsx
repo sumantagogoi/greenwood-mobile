@@ -16,7 +16,7 @@ const GW = () => {
   ]
 
   return (
-    <Box sx={{ mt: -10 }}>
+    <Box sx={{ }}>
       {/* <Box sx={{ display: 'flex', flexDirection: 'column', height: '50vh' }}>
         <ImageSlider images={images} />
 

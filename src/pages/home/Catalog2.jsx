@@ -30,7 +30,7 @@ const GWinfo = {
 const CatalogGW = ({ page }) => {
 
   return (
-    <Box sx={{ display: 'flex', mt: -7 }}>
+    <Box sx={{ display: 'flex', }}>
       <Container>
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <Box sx={{ mb: 5 }}>
