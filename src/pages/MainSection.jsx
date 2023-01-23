@@ -11,16 +11,13 @@ import GWGStay from './GWG/gwg-stay';
 import GWRStay from './GWR/gwr-stay';
 import GWTStay from './GWT/gwt-stay';
 import Kayana from './home/kayana';
-import Rooms from './Rooms';
 import FNB from './FNB';
-import EventBookings from './EventBookings';
-import Events2 from './Events2';
 import FNB2 from './FNB2';
 import Catalog from './Catalog';
 import CatalogGW from './home/Catalog2';
 import DiscoverAssam from './home/DiscoverAssam';
 import GWLive from './home/GWLive';
-import Room from '../components/rooms/Room';
+import Rooms from '../components/rooms/Room';
 import Events from '../components/Events/Events';
 
 
@@ -36,7 +33,7 @@ const MainSection = ({ page }) => {
     "spa-wellness": CatalogGW, 
     "gwr": GWRIndex, 
     "gwr-stay": Catalog, 
-    "gwr-stay-standard-room": Room, 
+    "gwr-stay-standard-room": Rooms, 
     "gwr-stay-premier-room": Rooms,  
     "gwr-stay-luxury-room": Rooms,  
     "gwr-stay-greenwood-suite": Rooms,  
@@ -47,12 +44,12 @@ const MainSection = ({ page }) => {
     "gwr-fnb-jolpan": FNB2, 
     "gwr-event-bookings": Catalog, 
     "gwr-event-bookings-majuli-hall": Events, 
-    "gwr-event-bookings-majuli-lawn": Events2,
-    "gwr-event-bookings-kamarup-hall": Events2, 
-    "gwr-event-bookings-pobitora-lawn": Events2, 
-    "gwr-event-bookings-nameri-hall": Events2, 
-    "gwr-event-bookings-nameri-lawn": Events2, 
-    "gwr-event-bookings-umananda-hall": Events2, 
+    "gwr-event-bookings-majuli-lawn": Events,
+    "gwr-event-bookings-kamarup-hall": Events, 
+    "gwr-event-bookings-pobitora-lawn": Events, 
+    "gwr-event-bookings-nameri-hall": Events, 
+    "gwr-event-bookings-nameri-lawn": Events, 
+    "gwr-event-bookings-umananda-hall": Events, 
     "gwr-spa-kayana": Kayana, 
     "gwr-spa-wellness": Kayana,       
     "gwg": GWGIndex, 
@@ -60,11 +57,11 @@ const MainSection = ({ page }) => {
     "gwg-stay-luxury-room": Rooms, 
     "gwg-stay-greenwood-suite": Rooms, 
     "gwg-fnb": FNB, 
-    "gwg-fnb-jholoe": Events2, 
+    "gwg-fnb-jholoe": FNB2, 
     "gwg-fnb-kiya": FNB2, 
     "gwg-fnb-bagan": FNB2, 
-    "gwg-event-bookings": GWGStay, 
-    "gwg-event-bookings-xorai": GWGStay, 
+    "gwg-event-bookings": Events, 
+    "gwg-event-bookings-xorai": Events, 
     "gwg-spa-kayana": Kayana, 
     "gwg-spa-wellness": Kayana, 
     "gwt": GWTIndex, 
@@ -77,10 +74,10 @@ const MainSection = ({ page }) => {
     "gwt-fnb-bagan": FNB2, 
     "gwt-fnb-aroma": FNB2, 
     "gwt-event-bookings": Catalog, 
-    "gwt-event-bookings-orang-hall": Events2, 
-    "gwt-event-bookings-orang-lawn": Events2, 
-    "gwt-event-bookings-gorh-hall" : Events2,
-    "gwt-event-bookings-gw-boardrooms" : Events2,
+    "gwt-event-bookings-orang-hall": Events, 
+    "gwt-event-bookings-orang-lawn": Events, 
+    "gwt-event-bookings-gorh-hall" : Events,
+    "gwt-event-bookings-gw-boardrooms" : Events,
     "gwt-spa-kayana": Kayana, 
     "gwt-spa-wellness": Kayana,
     "discover-assam": DiscoverAssam,
@@ -93,7 +90,7 @@ const MainSection = ({ page }) => {
   const Elmnt = React.createElement(Compnt, {page});
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', height: "75vh"}} className=" bg1 scrollable-y">     
+    <Box sx={{ display: 'flex', flexDirection: 'column', height: "80vh"}} className=" bg1 scrollable-y">     
       <Box sx={{ display: 'flex',  flexDirection: 'row', mt: 6 }}>
         { Elmnt }
       </Box>      

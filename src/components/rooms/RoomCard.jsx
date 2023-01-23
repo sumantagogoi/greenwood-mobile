@@ -8,7 +8,7 @@ import { useTheme } from '@mui/material/styles';
 import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai'
 import './RoomCard.css'
 
-const RoomCard = () => {
+const RoomCard = ({photos}) => {
 
     
 
@@ -27,15 +27,8 @@ const RoomCard = () => {
     }
 
     const theme = useTheme();
-    const RoomImages =[
-        {id:1, imgUrl :'https://thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-standard4-e1655583000953-pqif7tvddrbw2lphio0xn0ak2idmt1hjwwfwyvxvz4.jpg'},
-        {id:2, imgUrl :'https://thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-standard3-e1655582966903-pqif6xwuxe453uzwpa7ma8cvver5jbyogi9enh99uo.jpg'},
-        {id:3, imgUrl :'https://thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-standard5-ppzhmh9frjjpplktergijf8861ury6wooak7w3pqu8.jpg'},
-        {id:4, imgUrl :'https://thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-standard2-e1655582749221-pqif19xvqccx4h86sc1kr5tuysoi50gxcgp1ifnpcw.jpg'},
-        {id:5, imgUrl :'https://thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-standard1-e1655582876953-pqif4lbduawc2yesf9n71tpeeqc4akmu4vjpgkqpeo.jpg'},
-    ]
 
-    const maxSteps = RoomImages?.length;
+    const maxSteps = photos?.length;
 
   return (
         <Box sx={{flexGrow:1, position:'relative'}} className='carousal'>
@@ -46,11 +39,11 @@ const RoomCard = () => {
             enableMouseEvents
             >
 
-                {RoomImages?.map((item)=>{
+                {photos?.map((item,index)=>{
                     return (
-                        <div key={item.id}>
+                        <div key={index}>
                         <Box component='img'
-                            src={item.imgUrl}
+                            src={item}
                             sx={{height:200, width:'100%', overflow:'hidden', display:'block', borderRadius:3}}
                         />
                     </div>

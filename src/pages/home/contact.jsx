@@ -11,13 +11,16 @@ const GWContact = () => {
     {id:2, label:'The Greenwood,Beltola'}, 
   ]
   return (
+        <Box>
+        <img src="/assets/images/gwcont.jpg" width="100%" />
         <Container maxWidth='md' sx={{diplay:'flex', mb:10}}>
+          
             <Box sx={{display:'flex', justifyContent:'center', flexDirection:'column', alignItems:'center', gap:1}}>
               <Box component='img'
                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/05/logo-sm.png"
                 sx={{ alignItems:'center', justifyContent:'center', textAlign:'center', width:40, height:40}}
                 />
-              <Typography sx={{fontSize:25}}>Send us a Message</Typography>
+              <Typography sx={{fontSize:25, fontFamily:"Savoy Regular"}}>Send us a Message</Typography>
             </Box>
             <Box sx={{display:'flex', justifyContent:'center', alignItems:'center', flexDirection:'column', mt:2, gap:2}}>
                     <TextField
@@ -63,6 +66,8 @@ const GWContact = () => {
               <Button variant='contained' fullWidth>Send</Button>
             </Box>
         </Container>
+        </Box>
+        
       )
 }
 

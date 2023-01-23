@@ -30,13 +30,13 @@ const CategoryTabs = ({ page }) => {
     "gwt-fnb": ["Mynah Bar", "Bagan Cafe", "Aroma"],
     "gwt-fnb-l": ["mynah", "bagan", "aroma"],
 
-    "gwr-event-bookings": ["Nameri Hall", "Nameri Lawn", "Majuli Hall", "Majuli Lawn", "Umananda Hall", "Kamarup Hall", "Pobitora Lawn"],
+    "gwr-event-bookings": ["Nameri Banquet", "Nameri Lawn", "Majuli Banquet", "Majuli Lawn", "Umananda Banquet", "Kamarup Banquet", "Pobitora Lawn"],
     "gwr-event-bookings-l": ["nameri-hall", "nameri-lawn", "majuli-hall", "majuli-lawn", "umananda-hall", "kamarup-hall", "pobitora-lawn"],
 
     "gwg-event-bookings": ["Xorai"],
     "gwg-event-bookings-l": ["xorai"],
 
-    "gwt-event-bookings": ["Orang Hall", "Orang Lawn", "Gorh Banquet", "Greenwood Boardrooms"],
+    "gwt-event-bookings": ["Orang Banquet", "Orang Lawn", "Gorh Banquet", "Greenwood Boardrooms"],
     "gwt-event-bookings-l": ["orang-hall", "orang-lawn", "gorh-hall", "gw-boardrooms"],
 
     "gwr-spa": ["Kayana"],
