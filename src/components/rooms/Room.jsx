@@ -204,7 +204,10 @@ const Room = ({ page }) => {
                     </Box>
 
                 </Container> */}
-                <img src="/assets/images/gw-room-facilites.jpg" width="100%" />
+                <Box  sx={{pb: 10}}>
+                <img src="/assets/images/gw-room-facilites.jpg" width="100%"/>
+                </Box>
+                
             </Box>
         </Container>
 
