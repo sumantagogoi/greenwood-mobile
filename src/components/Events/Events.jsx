@@ -22,9 +22,10 @@ const Events = ({ page }) => {
         },
         "photos": [
 
-            "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall4-e1655763455916.jpg",
-            "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall7.jpg",
-
+            "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai5.jpg",
+            "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai4.jpg",
+            "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai2.jpg",
+            "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai3.jpg",
         ],
     }
 
@@ -298,9 +299,9 @@ const Events = ({ page }) => {
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                             <Box component='img'
                                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/theatre.png"
-                                sx={{ height: 50, width: 50, color: 'white',ml:-1 }}
+                                sx={{ height: 50, width: 50, color: 'white', ml: -1 }}
                             />
-                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book",  fontSize: 14 }}>Theatre: {event_data[page]["info"]["theatre"]}</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book", fontSize: 14 }}>Theatre: {event_data[page]["info"]["theatre"]}</Typography>
                         </Box>
 
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
@@ -308,7 +309,7 @@ const Events = ({ page }) => {
                                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/classroom.png"
                                 sx={{ height: 35, width: 35, color: 'white', }}
                             />
-                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book" ,  fontSize: 14 }}>Classroom: {event_data[page]["info"]["classroom"]}</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book", fontSize: 14 }}>Classroom: {event_data[page]["info"]["classroom"]}</Typography>
                         </Box>
 
 
@@ -317,7 +318,7 @@ const Events = ({ page }) => {
                                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/cluster.png"
                                 sx={{ height: 40, width: 40, color: 'white' }}
                             />
-                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book",  fontSize: 14 }}>Cluster: {event_data[page]["info"]["cluster"]}</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book", fontSize: 14 }}>Cluster: {event_data[page]["info"]["cluster"]}</Typography>
                         </Box>
 
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
@@ -325,7 +326,7 @@ const Events = ({ page }) => {
                                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/U-SEAT.png"
                                 sx={{ height: 40, width: 40, color: 'white' }}
                             />
-                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book",  fontSize: 14 }}>U-Shape: {event_data[page]["info"]["ushape"]}</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book", fontSize: 14 }}>U-Shape: {event_data[page]["info"]["ushape"]}</Typography>
                         </Box>
 
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
@@ -333,7 +334,7 @@ const Events = ({ page }) => {
                                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/social.png"
                                 sx={{ height: 40, width: 40, color: 'white' }}
                             />
-                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book",  fontSize: 14 }}>Social: {event_data[page]["info"]["social"]}</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book", fontSize: 14 }}>Social: {event_data[page]["info"]["social"]}</Typography>
                         </Box>
                     </Box>
 
