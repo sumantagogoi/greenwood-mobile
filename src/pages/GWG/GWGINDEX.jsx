@@ -15,7 +15,7 @@ const GWGIndex = () => {
   return (
    
 
-      <Box sx={{ display: 'flex', mb: 4 }}>
+      <Box sx={{ display: 'flex', mb: 10 }}>
         <Container maxWidth='md'>
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
             <Box sx={{}}>

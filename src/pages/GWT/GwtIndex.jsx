@@ -19,7 +19,7 @@ const GWTIndex = () => {
    
     
 
-      <Box sx={{ display: 'flex', pb: 5 }}>
+      <Box sx={{ display: 'flex', pb: 10 }}>
         <Container maxWidth='md'>
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
             <Box sx={{}}>
