@@ -22,7 +22,7 @@ const GW = () => {
 
       </Box> */}
 
-      <Box sx={{ display: 'flex', mb: 5 }}>
+      <Box sx={{ display: 'flex', mb: 10 }}>
         <Container maxWidth='md'>
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
             <Box sx={{}}>
