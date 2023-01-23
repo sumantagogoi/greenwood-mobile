@@ -58,14 +58,14 @@ const RoomCard = ({photos}) => {
             activeStep={activeStep}
             nextButton ={
                 <Button size='small' onClick={handleNext} disabled={activeStep === maxSteps - 1} sx={{
-                    color: '#173632', backgroundColor: 'white',opacity: 2, borderRadius: 10, p: 1, minWidth: 'auto'
+                    color: '#173632', backgroundColor: 'white',opacity: 2, borderRadius: 10, p: 1, minWidth: 'auto', ':hover':{ backgroundColor:'white'}
                 }}>
                     <AiOutlineRight/>
                 </Button>
             }
             backButton = {
                     <Button size='small' onClick={handleBack} disabled={activeStep === 0} sx={{
-                        color: '#173632', backgroundColor: 'white',opacity: 2, borderRadius: 10,p: 1,minWidth: 'auto' 
+                        color: '#173632', backgroundColor: 'white',opacity: 2, borderRadius: 10,p: 1,minWidth: 'auto', ':hover':{ backgroundColor:'white'} 
                     }}>
                         <AiOutlineLeft/>
                     </Button>
