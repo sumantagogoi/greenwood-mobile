@@ -2,7 +2,7 @@ import { Box, Button, Container, Typography } from '@mui/material'
 import zIndex from '@mui/material/styles/zIndex'
 import React from 'react'
 import { BiWifi } from "react-icons/bi"
-import RoomCard from '../rooms/RoomCard'
+import RoomCard from '../Slider2/SliderCard'
 import { Link, useLocation } from 'react-router-dom';
 
 
@@ -272,7 +272,7 @@ const Events = ({ page }) => {
                     <Typography sx={{ fontFamily: "Savoy Regular", fontSize: 30, letterSpacing: 0 }}>{event_data[page]["name"]}</Typography>
                 </Box>
                 <Typography sx={{ fontSize: 15, textAlign: 'justify', fontFamily: "Avenir Book" }}>{event_data[page]["desc"]}</Typography>
-                <Typography sx={{ textAlign: 'center', fontSize: 15, fontWeight: 700, fontFamily: "Avenir Book" }}>Maximum Capacity: {event_data[page]["info"]["maxcap"]}</Typography>
+                <Typography sx={{ textAlign: 'center', fontSize: 15, fontWeight: 700, fontFamily: "Avenir Book", marginY: 2 }}>Maximum Capacity: {event_data[page]["info"]["maxcap"]}</Typography>
                 <Box sx={{ display: 'flex', justifyContent: 'center', gap: 3 }}>
                     <Link to="/contact">
                         <Button variant='contained' size='medium' sx={{ borderRadius: 10, fontFamily: "Savoy Regular" }} >Book Now</Button>
@@ -280,7 +280,7 @@ const Events = ({ page }) => {
 
                     <Button variant='contained' size='medium' sx={{ borderRadius: 10, fontFamily: "Savoy Regular" }} >Layout</Button>
                 </Box>
-                <Container maxWidth='md' sx={{ backgroundColor: '#dddddd', padding: 5, opacity: 0.5 }} >
+                <Container maxWidth='md' sx={{ backgroundColor: '#dddddd', padding: 3, opacity: 0.5 }} >
                     <Box sx={{ display: 'flex', flexDirection: 'column', color: 'black', zIndex: 222 }}>
                         <Typography sx={{ fontWeight: 'bold', fontFamily: "Avenir Book" }}>Area : {event_data[page]["info"]["area"]} sq ft</Typography>
                         <Typography sx={{ fontWeight: 'bold', fontFamily: "Avenir Book" }}>Guest Entry Point : {event_data[page]["info"]["entrys"]}</Typography>
@@ -291,49 +291,49 @@ const Events = ({ page }) => {
                     </Box>
                 </Container>
 
-                <Container maxWidth='md' sx={{ backgroundColor: '#173632', padding: 5 }}>
+                <Container maxWidth='md' sx={{ backgroundColor: '#173632', padding: 5, mb: 10 }}>
                     <Typography sx={{ color: 'white', textAlign: 'center', mb: 4, fontFamily: "Savoy Regular" }}>SEATING STYLE</Typography>
-                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 4, justifyContent: { xs: 'center' } }}>
+                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 4, justifyContent: { xs: 'left' } }}>
 
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                             <Box component='img'
                                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/theatre.png"
-                                sx={{ height: 40, width: 40, color: 'white' }}
+                                sx={{ height: 50, width: 50, color: 'white',ml:-1 }}
                             />
-                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book" }}>Theatre: {event_data[page]["info"]["theatre"]}</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book",  fontSize: 14 }}>Theatre: {event_data[page]["info"]["theatre"]}</Typography>
                         </Box>
 
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                             <Box component='img'
                                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/classroom.png"
-                                sx={{ height: 40, width: 40, color: 'white' }}
+                                sx={{ height: 35, width: 35, color: 'white', }}
                             />
-                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book" }}>Classroom: {event_data[page]["info"]["classroom"]}</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book" ,  fontSize: 14 }}>Classroom: {event_data[page]["info"]["classroom"]}</Typography>
                         </Box>
 
 
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                             <Box component='img'
                                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/cluster.png"
                                 sx={{ height: 40, width: 40, color: 'white' }}
                             />
-                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book" }}>Cluster: {event_data[page]["info"]["cluster"]}</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book",  fontSize: 14 }}>Cluster: {event_data[page]["info"]["cluster"]}</Typography>
                         </Box>
 
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                             <Box component='img'
                                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/U-SEAT.png"
                                 sx={{ height: 40, width: 40, color: 'white' }}
                             />
-                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book" }}>U-Shape: {event_data[page]["info"]["ushape"]}</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book",  fontSize: 14 }}>U-Shape: {event_data[page]["info"]["ushape"]}</Typography>
                         </Box>
 
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                             <Box component='img'
                                 src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/social.png"
                                 sx={{ height: 40, width: 40, color: 'white' }}
                             />
-                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book" }}>Social: {event_data[page]["info"]["social"]}</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: "Avenir Book",  fontSize: 14 }}>Social: {event_data[page]["info"]["social"]}</Typography>
                         </Box>
                     </Box>
 

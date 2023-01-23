@@ -2,7 +2,7 @@ import { Box, Button, Container, Grid, Typography, Link } from '@mui/material'
 import React from 'react'
 import { BiWifi } from "react-icons/bi"
 import { autoPlay } from 'react-swipeable-views-utils'
-import RoomCard from './RoomCard'
+import RoomCard from '../Slider2/SliderCard'
 
 
 const Room = ({ page }) => {
