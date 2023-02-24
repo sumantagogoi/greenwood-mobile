@@ -7,9 +7,6 @@ import GWTIndex from './GWT/GwtIndex';
 import GW from './home/GW';
 import GWContact from './home/contact';
 import GWFamily from './home/gwf';
-import GWGStay from './GWG/gwg-stay';
-import GWRStay from './GWR/gwr-stay';
-import GWTStay from './GWT/gwt-stay';
 import Kayana from './home/kayana';
 import FNB from './FNB';
 import FNB2 from './FNB2';
@@ -37,7 +34,7 @@ const MainSection = ({ page }) => {
     "gwr-stay-premier-room": Rooms,  
     "gwr-stay-luxury-room": Rooms,  
     "gwr-stay-greenwood-suite": Rooms,  
-    "gwr-fnb": FNB, 
+    "gwr-fnb": Catalog, 
     "gwr-fnb-mynah": FNB2, 
     "gwr-fnb-bagan": FNB2, 
     "gwr-fnb-aroma": FNB2, 

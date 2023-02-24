@@ -101,6 +101,24 @@ const Catalog = ({ page }) => {
       ]
     },
 
+    "gwr-fnb": {
+      "title": "Cullinary",
+      "intro": "Combining the finest of traditional Indian cooking with culinary concepts from all over the world, the restaurants & bar at The Greenwood offers distinctive cuisines to choose from. Our Chefs at the Greenwood are trained and equipped with state of art skills and treat you to a great culinary experience. They bring the ingredients and prepare choicest delicacies. Plan a special surprise, or host your family & friends, this is the perfect way to answer both taste and hygiene concerns.",
+      "photos": [
+
+        "/assets/images/gwr/gwr-fnb-bagan.jpg",
+        "/assets/images/gwr/gwr-fnb-mynah.jpg",
+        "/assets/images/gwr/gwr-fnb-aroma.jpg",      
+      ],
+      "about": [""],
+      "link-to": [
+  
+        "/gwr-fnb-bagan",
+        "/gwr-fnb-mynah",
+        "/gwr-fnb-aroma",      
+      ]
+    },
+
   }
 
 
