@@ -29,6 +29,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Freight Big Bold';
+  src: url('assets/Freight-Big-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Freight Big Light';
+  src: url('assets/Freight-Big-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html body{
   font-family: 'Avenir Book';
   height:100vh;

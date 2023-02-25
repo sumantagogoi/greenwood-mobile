@@ -119,6 +119,44 @@ const Catalog = ({ page }) => {
       ]
     },
 
+    "gwt-fnb": {
+      "title": "Cullinary",
+      "intro": "Combining the finest of traditional Indian cooking with culinary concepts from all over the world, the restaurants & bar at The Greenwood offers distinctive cuisines to choose from. Our Chefs at the Greenwood are trained and equipped with state of art skills and treat you to a great culinary experience. They bring the ingredients and prepare choicest delicacies. Plan a special surprise, or host your family & friends, this is the perfect way to answer both taste and hygiene concerns.",
+      "photos": [
+
+        "/assets/images/gwt/gwt-fnb-bagan.jpg",
+        "/assets/images/gwt/gwt-fnb-mynah.jpg",
+        "/assets/images/gwt/gwt-fnb-aroma.jpg",      
+      ],
+      "about": [""],
+      "link-to": [
+  
+        "/gwt-fnb-bagan",
+        "/gwt-fnb-mynah",
+        "/gwt-fnb-aroma",      
+      ]
+    },
+
+    "gwg-fnb": {
+      "title": "Cullinary",
+      "intro": "Combining the finest of traditional Indian cooking with culinary concepts from all over the world, the restaurants & bar at The Greenwood offers distinctive cuisines to choose from. Our Chefs at the Greenwood are trained and equipped with state of art skills and treat you to a great culinary experience. They bring the ingredients and prepare choicest delicacies. Plan a special surprise, or host your family & friends, this is the perfect way to answer both taste and hygiene concerns.",
+      "photos": [
+
+        "/assets/images/gwg/gwg-fnb-bagan.jpg",
+        "/assets/images/gwg/gwg-fnb-jholoe.jpg",
+        "/assets/images/gwg/gwg-fnb-kiya.jpg",
+        "/assets/images/gwg/gwg-fnb-sakahi.jpg",      
+      ],
+      "about": [""],
+      "link-to": [
+  
+        "/gwg-fnb-bagan",
+        "/gwg-fnb-jholoe",
+        "/gwg-fnb-kiya",
+        "/gwg-fnb-sakahi",
+      ]
+    },
+
   }
 
 
