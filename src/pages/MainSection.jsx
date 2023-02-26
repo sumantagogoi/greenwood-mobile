@@ -7,9 +7,6 @@ import GWTIndex from './GWT/GwtIndex';
 import GW from './home/GW';
 import GWContact from './home/contact';
 import GWFamily from './home/gwf';
-import GWGStay from './GWG/gwg-stay';
-import GWRStay from './GWR/gwr-stay';
-import GWTStay from './GWT/gwt-stay';
 import Kayana from './home/kayana';
 import FNB from './FNB';
 import FNB2 from './FNB2';
@@ -38,9 +35,9 @@ const MainSection = ({ page }) => {
     "gwr-stay-premier-room": Rooms,  
     "gwr-stay-luxury-room": Rooms,  
     "gwr-stay-greenwood-suite": Rooms,  
-    "gwr-fnb": FNB, 
-    "gwr-fnb-mynah": FnB, 
-    "gwr-fnb-bagan": FNB2, 
+    "gwr-fnb": Catalog, 
+    "gwr-fnb-mynah": FNB2, 
+    "gwr-fnb-bagan": FNB, 
     "gwr-fnb-aroma": FNB2, 
     "gwr-fnb-jolpan": FNB2, 
     "gwr-event-bookings": Catalog, 
@@ -57,7 +54,7 @@ const MainSection = ({ page }) => {
     "gwg-stay": Catalog, 
     "gwg-stay-luxury-room": Rooms, 
     "gwg-stay-greenwood-suite": Rooms, 
-    "gwg-fnb": FNB, 
+    "gwg-fnb": Catalog, 
     "gwg-fnb-jholoe": FNB2, 
     "gwg-fnb-kiya": FNB2, 
     "gwg-fnb-bagan": FNB2, 
@@ -70,7 +67,7 @@ const MainSection = ({ page }) => {
     "gwt-stay-premier-room": Rooms, 
     "gwt-stay-luxury-room": Rooms, 
     "gwt-stay-greenwood-suite": Rooms,  
-    "gwt-fnb": FNB, 
+    "gwt-fnb": Catalog, 
     "gwt-fnb-mynah": FNB2, 
     "gwt-fnb-bagan": FNB2, 
     "gwt-fnb-aroma": FNB2, 
