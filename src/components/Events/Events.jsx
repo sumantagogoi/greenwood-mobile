@@ -22,10 +22,10 @@ const Events = ({ page }) => {
         },
         "photos": [
 
-            "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai5.jpg",
-            "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai4.jpg",
-            "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai2.jpg",
-            "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai3.jpg",
+            "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai5.jpg",
+            "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai4.jpg",
+            "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai2.jpg",
+            "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/01/gwg-xorai3.jpg",
         ],
     }
 
@@ -44,11 +44,11 @@ const Events = ({ page }) => {
                 "social": "150",
             },
             "photos": [
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-events-majulihall5.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-events-majulihall1.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-events-majulihall2.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-events-majulihall4.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-events-majulihall3.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-events-majulihall5.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-events-majulihall1.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-events-majulihall2.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-events-majulihall4.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-events-majulihall3.jpg",
             ],
         },
         "gwr-event-bookings-majuli-lawn": {
@@ -65,15 +65,15 @@ const Events = ({ page }) => {
                 "social": "3500",
             },
             "photos": [
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/05/majuli-lawn1-e1655763595638.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall4-e1655763455916.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall7.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall6-e1655763497290.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall5-e1655763516152.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall3.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-umanandalawn-pic27.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-majulilawn-13.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-majulilawn-15.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/majuli-lawn1-e1655763595638.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall4-e1655763455916.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall7.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall6-e1655763497290.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall5-e1655763516152.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Majuli-Hall3.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-umanandalawn-pic27.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-majulilawn-13.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-majulilawn-15.jpg",
             ],
         },
         "gwr-event-bookings-nameri-lawn": {
@@ -90,14 +90,14 @@ const Events = ({ page }) => {
                 "social": "1500",
             },
             "photos": [
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-24.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-25.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-22.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Nameri-Hall5-e1655764103157.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-21.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-23.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Nameri-Hall1-rotated-e1655764041628.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-28.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-24.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-25.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-22.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Nameri-Hall5-e1655764103157.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-21.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-23.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Nameri-Hall1-rotated-e1655764041628.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-nameri-lawn-28.jpg",
             ],
         },
         "gwr-event-bookings-nameri-hall": {
@@ -114,10 +114,10 @@ const Events = ({ page }) => {
                 "social": "200",
             },
             "photos": [
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/05/nameri-hall1.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/05/nameri-lawn1.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Nameri-Hall2-rotated-e1655764245350.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Nameri-Hall5-e1655764103157.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/nameri-hall1.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/nameri-lawn1.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Nameri-Hall2-rotated-e1655764245350.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Nameri-Hall5-e1655764103157.jpg",
             ],
         },
         "gwr-event-bookings-umananda-lawn": {
@@ -134,16 +134,16 @@ const Events = ({ page }) => {
                 "social": "500",
             },
             "photos": [
-                "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwr-umananda2.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-umanandalawn-hero1.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwr-umananda3.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Umananda-Hall4.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-umanandalawn-pic21.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Umananda-Hall3.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-umanandalawn-pic22.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Umananda-Hall1-e1655765078669.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwr-umananda5.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2023/01/gwr-umananda6.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/01/gwr-umananda2.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-umanandalawn-hero1.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/01/gwr-umananda3.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Umananda-Hall4.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-umanandalawn-pic21.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Umananda-Hall3.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-umanandalawn-pic22.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Umananda-Hall1-e1655765078669.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/01/gwr-umananda5.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/01/gwr-umananda6.jpg",
             ],
         },
         "gwr-event-bookings-kamarup-hall": {
@@ -160,19 +160,19 @@ const Events = ({ page }) => {
                 "social": "700",
             },
             "photos": [
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Kamarup-Hall7-e1655764462121.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Kamarup-Hall8-e1655764421225.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Kamarup-Hall5-e1655764502352.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/05/kamarup-hall1-e1655764699549.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/kamarup-banq4.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/kamarup-banq5.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Kamarup-Hall1-e1655764665669.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/kamarup-banq1.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/kamarup-banq2.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/kamarup-banq3.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-kamarup-banq31.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-kamarup-banq32.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-kamarup-banq33.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Kamarup-Hall7-e1655764462121.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Kamarup-Hall8-e1655764421225.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Kamarup-Hall5-e1655764502352.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/kamarup-hall1-e1655764699549.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/kamarup-banq4.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/kamarup-banq5.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Lawns-Kamarup-Hall1-e1655764665669.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/kamarup-banq1.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/kamarup-banq2.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/kamarup-banq3.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-kamarup-banq31.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-kamarup-banq32.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-kamarup-banq33.jpg",
             ],
         },
 
@@ -193,14 +193,14 @@ const Events = ({ page }) => {
                 "social": "2000",
             },
             "photos": [
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn1.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn7.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn2.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn6.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn8.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn4.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn5.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn3.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn1.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn7.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn2.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn6.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn8.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn4.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn5.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn3.jpg",
             ],
         },
         "gwt-event-bookings-orang-hall": {
@@ -217,9 +217,9 @@ const Events = ({ page }) => {
                 "social": "1000",
             },
             "photos": [
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/07/gwh-tezpur-banque21.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/07/gwh-tezpur-banque22.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/07/gwht-banquet-hall.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/07/gwh-tezpur-banque21.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/07/gwh-tezpur-banque22.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/07/gwht-banquet-hall.jpg",
             ],
         },
         "gwt-event-bookings-gorh-hall": {
@@ -236,9 +236,9 @@ const Events = ({ page }) => {
                 "social": "70",
             },
             "photos": [
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras11.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras2.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras13.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras11.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras2.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras13.jpg",
             ],
         },
         "gwt-event-bookings-gw-boardrooms": {
@@ -255,9 +255,9 @@ const Events = ({ page }) => {
                 "social": "N/A",
             },
             "photos": [
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras6.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras8.jpg",
-                "https://thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras9.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras6.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras8.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/12/gwht-extras9.jpg",
             ],
         },
 
@@ -269,7 +269,7 @@ const Events = ({ page }) => {
             <Box sx={{ display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center', gap: 2 }}>
                 <RoomCard photos={event_data[page]["photos"]} />
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, mt: 4, mb: 1 }}>
-                    <Box component="img" sx={{ width: 35, height: 35 }} src="https://thegreenwoodhotels.com/wp-content/uploads/2022/05/logo-sm.png" />
+                    <Box component="img" sx={{ width: 35, height: 35 }} src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/logo-sm.png" />
                     <Typography sx={{ fontFamily: "Savoy Regular", fontSize: 30, letterSpacing: 0 }}>{event_data[page]["name"]}</Typography>
                 </Box>
                 <Typography sx={{ fontSize: 15, textAlign: 'justify', fontFamily: "Avenir Book" }}>{event_data[page]["desc"]}</Typography>
@@ -298,7 +298,7 @@ const Events = ({ page }) => {
 
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                             <Box component='img'
-                                src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/theatre.png"
+                                src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/theatre.png"
                                 sx={{ height: 50, width: 50, color: 'white', ml: -1 }}
                             />
                             <Typography sx={{ color: 'white', fontFamily: "Avenir Book", fontSize: 14 }}>Theatre: {event_data[page]["info"]["theatre"]}</Typography>
@@ -306,7 +306,7 @@ const Events = ({ page }) => {
 
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                             <Box component='img'
-                                src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/classroom.png"
+                                src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/classroom.png"
                                 sx={{ height: 35, width: 35, color: 'white', }}
                             />
                             <Typography sx={{ color: 'white', fontFamily: "Avenir Book", fontSize: 14 }}>Classroom: {event_data[page]["info"]["classroom"]}</Typography>
@@ -315,7 +315,7 @@ const Events = ({ page }) => {
 
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                             <Box component='img'
-                                src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/cluster.png"
+                                src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/cluster.png"
                                 sx={{ height: 40, width: 40, color: 'white' }}
                             />
                             <Typography sx={{ color: 'white', fontFamily: "Avenir Book", fontSize: 14 }}>Cluster: {event_data[page]["info"]["cluster"]}</Typography>
@@ -323,7 +323,7 @@ const Events = ({ page }) => {
 
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                             <Box component='img'
-                                src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/U-SEAT.png"
+                                src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/U-SEAT.png"
                                 sx={{ height: 40, width: 40, color: 'white' }}
                             />
                             <Typography sx={{ color: 'white', fontFamily: "Avenir Book", fontSize: 14 }}>U-Shape: {event_data[page]["info"]["ushape"]}</Typography>
@@ -331,7 +331,7 @@ const Events = ({ page }) => {
 
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                             <Box component='img'
-                                src="https://thegreenwoodhotels.com/wp-content/uploads/2022/06/social.png"
+                                src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/social.png"
                                 sx={{ height: 40, width: 40, color: 'white' }}
                             />
                             <Typography sx={{ color: 'white', fontFamily: "Avenir Book", fontSize: 14 }}>Social: {event_data[page]["info"]["social"]}</Typography>

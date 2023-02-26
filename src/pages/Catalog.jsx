@@ -108,7 +108,7 @@ const Catalog = ({ page }) => {
    
       <Box sx={{ display: "flex", alignItems: "center",  flexDirection: 'column', mb: 3}} >
         <Box sx={{ display: "flex", alignItems: "center", flexDirection: 'row' }}>
-          <img src="https://thegreenwoodhotels.com/wp-content/uploads/2022/05/gwexp.png" alt="Logo" style={{ width: '35px', height: '35px', marginRight: '5px' }} />
+          <img src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/gwexp.png" alt="Logo" style={{ width: '35px', height: '35px', marginRight: '5px' }} />
           <Typography variant="h5" style={{ fontFamily: 'Savoy Regular', textTransform: 'uppercase', textAlign: "left" }}>
             {places[page]["title"]}
           </Typography>

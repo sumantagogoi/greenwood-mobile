@@ -19,7 +19,7 @@ const Header = () => {
                 <Box>
 
                 </Box>
-                <img onClick={()=>navigate('/')} className='logo' src='https://thegreenwoodhotels.com/wp-content/uploads/2022/04/logo2x.png'/>
+                <img onClick={()=>navigate('/')} className='logo' src='https://www.thegreenwoodhotels.com/wp-content/uploads/2022/04/logo2x.png'/>
 
                 <IconButton onClick={()=>setNavOpen(true)}>
                     <GiHamburgerMenu color='white'/>

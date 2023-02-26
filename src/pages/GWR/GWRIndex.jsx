@@ -7,12 +7,12 @@ import ImageSlider from '../../components/slider/slider';
 const GW = () => {
 
   const images = [
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero1.jpg",
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero2.jpg",
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero3.jpg",
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero4.jpg",
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero5.jpg",
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero6.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero1.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero2.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero3.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero4.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero5.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero6.jpg",
   ]
 
   return (
@@ -26,7 +26,7 @@ const GW = () => {
         <Container maxWidth='md'>
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
             <Box sx={{}}>
-              <img className='about-image' src='https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Reception3.png' width="90%" />
+              <img className='about-image' src='https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Reception3.png' width="90%" />
             </Box>
 
             <Typography variant='h5' sx={{ fontWeight: 'bold', fontFamily: 'Savoy Regular' }}>ABOUT <br></br>THE GREENWOOD RESORT</Typography>

@@ -40,7 +40,7 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
 
       <Box sx={{ width: 350 }}>
         <Box textAlign="center" sx={{ mt: 3, mb: 0, ml: -10 }}>
-          <img onClick={() => navigate('/')} className='logo' src='https://thegreenwoodhotels.com/wp-content/uploads/2022/04/logo2x.png' />
+          <img onClick={() => navigate('/')} className='logo' src='https://www.thegreenwoodhotels.com/wp-content/uploads/2022/04/logo2x.png' />
         </Box>
         <Box textAlign="right" sx={{ mt: -5, mb: 4 }}>
           <IconButton onClick={() => setNavOpen(false)}>

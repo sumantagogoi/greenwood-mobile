@@ -13,6 +13,7 @@ import GWTStay from './GWT/gwt-stay';
 import Kayana from './home/kayana';
 import FNB from './FNB';
 import FNB2 from './FNB2';
+import FnB from '../components/FnB/FnB';
 import Catalog from './Catalog';
 import CatalogGW from './home/Catalog2';
 import DiscoverAssam from './home/DiscoverAssam';
@@ -38,7 +39,7 @@ const MainSection = ({ page }) => {
     "gwr-stay-luxury-room": Rooms,  
     "gwr-stay-greenwood-suite": Rooms,  
     "gwr-fnb": FNB, 
-    "gwr-fnb-mynah": FNB2, 
+    "gwr-fnb-mynah": FnB, 
     "gwr-fnb-bagan": FNB2, 
     "gwr-fnb-aroma": FNB2, 
     "gwr-fnb-jolpan": FNB2, 

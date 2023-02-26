@@ -17,7 +17,7 @@ const GWContact = () => {
           
             <Box sx={{display:'flex', justifyContent:'center', flexDirection:'column', alignItems:'center', gap:1}}>
               <Box component='img'
-                src="https://thegreenwoodhotels.com/wp-content/uploads/2022/05/logo-sm.png"
+                src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/logo-sm.png"
                 sx={{ alignItems:'center', justifyContent:'center', textAlign:'center', width:40, height:40}}
                 />
               <Typography sx={{fontSize:25, fontFamily:"Savoy Regular"}}>Send us a Message</Typography>

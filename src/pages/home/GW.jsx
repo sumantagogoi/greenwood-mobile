@@ -9,7 +9,7 @@ const GW = () => {
         <Container maxWidth='md'>
             <Box sx={{display:'flex',flexDirection:'column',  alignItems:'center', justifyContent:'center', textAlign:'center'}}>
                 <Box sx={{ }}>
-                    <img className='about-image' src='https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Fade-Final-Sketch-back2.png' width="60%" />
+                    <img className='about-image' src='https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Fade-Final-Sketch-back2.png' width="60%" />
                 </Box>
 
                 <Typography variant='h5' sx={{fontWeight:'bold', fontFamily: 'Savoy Regular'}}>ABOUT THE GREENWOOD</Typography>

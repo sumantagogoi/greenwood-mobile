@@ -7,12 +7,12 @@ import ImageSlider from '../../components/slider/slider';
 const GWTIndex = () => {
 
   const images = [
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero1.jpg",
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero2.jpg",
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero3.jpg",
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero4.jpg",
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero5.jpg",
-    "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero6.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero1.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero2.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero3.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero4.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero5.jpg",
+    "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero6.jpg",
   ]
 
   return (
@@ -23,7 +23,7 @@ const GWTIndex = () => {
         <Container maxWidth='md'>
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
             <Box sx={{}}>
-              {/* <img className='about-image' src='https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Reception3.png' width="90%" /> */}
+              {/* <img className='about-image' src='https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Reception3.png' width="90%" /> */}
             </Box>
 
             <Typography variant='h5' sx={{ fontWeight: 'bold', fontFamily: 'Savoy Regular' }}>ABOUT <br></br>THE GREENWOOD,<br></br> TEZPUR</Typography>
@@ -47,7 +47,7 @@ const GWTIndex = () => {
             </Typography>
 
             <Box sx={{ display: "flex", alignItems: "center", flexDirection: 'row', mt: 12 }}>
-              <img src="https://thegreenwoodhotels.com/wp-content/uploads/2022/05/gwexp.png" alt="GW" style={{ width: '45px', height: '45px', marginRight: '4px' }} />
+              <img src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/gwexp.png" alt="GW" style={{ width: '45px', height: '45px', marginRight: '4px' }} />
               <Typography variant="h7" style={{ fontFamily: 'Savoy Regular', textTransform: 'uppercase', textAlign: "left" }}>
                 THE CONTEMPORARY AMBIENCE
               </Typography>

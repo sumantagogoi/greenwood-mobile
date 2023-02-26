@@ -10,7 +10,7 @@ const GWFamily = () => {
         <Container maxWidth='md'>
             <Box sx={{display:'flex',flexDirection:'column',  alignItems:'center', justifyContent:'center', textAlign:'center'}}>
                 <Box>
-                    <img className='about-image' src='https://thegreenwoodhotels.com/wp-content/uploads/2022/06/Reception3.png' width="60%" />
+                    <img className='about-image' src='https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Reception3.png' width="60%" />
                 </Box>
 
                 <Typography variant='h5' sx={{fontWeight:'bold', fontFamily:'An Either Lifetime'}}>Welcome To Greenwood</Typography>
