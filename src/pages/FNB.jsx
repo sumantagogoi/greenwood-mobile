@@ -9,136 +9,62 @@ const FNB = ({ page }) => {
   const fnb_data = {
     "gwr-fnb-bagan": {
       "name": "Bagan",
-      "desc": "Tasdasdasdasdish amenities, unravel conscious luxury for solo-travelers and couples alike.",
-      "info": "2 Adults | King-size bed | 200-250 Sq.ft",
+      "logo": "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/07/Asset-2_1@2x.png",
+      "desc": "Drop in to get a glimpse of the natural beauty and warmth of Assam at our cosy and dreamy Cafe Bagan, a name that modestly hints at the widely famed signature of the Northeastern state— it’s lush tea gardens. Splendid outdoor views and luscious treats, offered in a neat and welcoming setting, With their tropical gardens, natural stones and wood combined with modern international materials, this upscale destination will bring you the serene feeling once you walk in.",
+      "info": "open your heart and mind and get your happy hormones flowing!",
+      "email": "fnb@greenwoodresort.in",
+      "phone": " +91 70990 47327",
+      "timings": "07:00 - 23:00",
+      "insta": "@bagan.cafe",
+      "foodmenu": "#",
+      "drinksmenu": "#",
       "photos": [
-        "https://thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-standard4-e1655583000953-pqif7tvddrbw2lphio0xn0ak2idmt1hjwwfwyvxvz4.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-standard3-e1655582966903-pqif6xwuxe453uzwpa7ma8cvver5jbyogi9enh99uo.jpg",
-        'https://thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-standard5-ppzhmh9frjjpplktergijf8861ury6wooak7w3pqu8.jpg',
-        'https://thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-standard2-e1655582749221-pqif19xvqccx4h86sc1kr5tuysoi50gxcgp1ifnpcw.jpg',
-        'https://thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-standard1-e1655582876953-pqif4lbduawc2yesf9n71tpeeqc4akmu4vjpgkqpeo.jpg',
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-bagan-hero2.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-bagan-hero6.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-bagan-hero1.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-bagan-hero5.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-bagan-hero3.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-bagan-hero4.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Bagan-GWR-0-1.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Bagan-GWR-0-2.jpg",
       ],
     },
-    "gwr-stay-premier-room": {
-      "name": "The Premier Room",
-      "desc": "Our Premier Rooms, with their bright, earthy energy and modish ensuite amenities, unravel conscious luxury for solo-travelers and couples alike.The rooms bestow an elegant design combined with refined charm and luxuriously appointed sleek accommodation",
-      "info": "2 Adults | King-size bed | 200-250 Sq.ft",
+
+    "gwr-fnb-mynah": {
+      "name": "Mynah",
+      "logo": "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Logo-Orange@2x.png",
+      "desc": "Drop in to get a glimpse of the natural beauty and warmth of Assam at our cosy and dreamy Cafe Bagan, a name that modestly hints at the widely famed signature of the Northeastern state— it’s lush tea gardens. Splendid outdoor views and luscious treats, offered in a neat and welcoming setting, With their tropical gardens, natural stones and wood combined with modern international materials, this upscale destination will bring you the serene feeling once you walk inSettle in for a pleasant and joyful time at our bar, Mynah’s , a name inspired by a bird local to Assam, known for its vibrant colour, melodic sound and its omnipresence across our properties. A stylish and inviting space, embodying the freedom of our feathered friend, is set perfectly to lift your spirits up with sumptuous fares, tantalising cocktails, and lively music tracks..",
+      "info": "A space brought to you, to bring people together!",
+      "email": "fnb@greenwoodresort.in",
+      "phone": " +91 70990 47323",
+      "timings": "12:00 - 00:00",
+      "insta": "mynahs.bar",
+      "foodmenu": "#",
+      "drinksmenu": "#",
       "photos": [
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-prem-room11-e1655584319727.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-prem-room9-e1655584369643.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-prem-room6-e1655584491736.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-prem-room8-rotated-e1655583480531.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/05/Room-E-2-e1655584637539.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-premier3.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/DSC7497-Edit-e1655584679679.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-prem-room4-e1655584588646.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-prem-room5-e1655584565268.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-prem-room12-e1655584255155.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-mynah41.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/Mynahs-Indoor.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-myna-live.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/GWMYNAH_04.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-mynah8.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-mynah42.jpg",
       ],
     },
-    "gwr-stay-luxury-room": {
-      "name": "The Luxury Room",
-      "desc": "Our Luxury Rooms, replicating our verdant and peaceful fringes offering modern amenities and lavish furnishings to delight leisure, business and family travelers alike. Each of our rooms are given an unique concepts that emanates unmistakable richness in all aspects to embed the stay on the mind forever. Most rooms feature a balcony.",
-      "info": "2 Adults | King-size bed | 380 Sq.ft",
+
+    "gwr-fnb-aroma": {
+      "name": "Aroma",
+      "logo": "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/aroma-blur.png",
+      "desc": "Aroma offers a lip-smacking spread of global cuisine, special menus on select days, and a magnificent view through its large windows . A one-of-a-kind culinary experience at Aroma, a warmly familial multi-cuisine restaurant, where the whiff of varied flavours tantalises your senses and draws you in for a delicious experience. A splendidly designed indoor space, awaits your presence.",
+      "info": "The flavours in our food unfolds with each bite!",
+      "email": "fnb@greenwoodresort.in",
+      "phone": " +91 70990 47326",
+      "timings": "07:00 - 23:00",
+      "insta": "aroma.moderndining",
+      "foodmenu": "#",
+      "drinksmenu": "#",
       "photos": [
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-luxury-anemolia4.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/05/luxury1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-luxury-kahakai3-e1655586919804.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-luxury-oakbarn5.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-luxury-aurevoir3.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-luxury-aurevoir4.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-luxury-aurevoir-room3-e1655589026571.jpg",
-      ],
-    },
-    "gwr-stay-greenwood-suite": {
-      "name": "The Greenwood Suite",
-      "desc": "Our Greenwood Suites boasts a bedroom complete with a stylish king size bed and a living room, decorated in neutral tones. Featuring modern furnishings with a warm and inviting feel, complemented by deluxe amenities.",
-      "info": "2 Adults | King-size bed | 400-450 Sq.ft",
-      "photos": [
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-2.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-3.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-4.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-S1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-S2.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-S3.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-S4.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-S5.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-S6.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-S7.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/06/GWR-SUITE-S8.jpg",
-      ],
-    },
-    "gwt-stay-premier-room": {
-      "name": "The Premier Room",
-      "desc": "Stunning basics uniquely designed for comfort. An ideal choice for those looking for a comfortable base from which to explore this vibrant city.",
-      "info": "2 Adults | King-size bed | 250 Sq.ft",
-      "photos": [
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-premium6-1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-premium4-1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-premium5-1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-premium2-1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-premium3-1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-premium1-1.jpg",
-      ],
-    },
-    "gwt-stay-luxury-room": {
-      "name": "The Luxury Room",
-      "desc": "A perfect combination of aesthetic design and open space as you make the best of our amenities to help you take care of your work, or simply unwind and relax.",
-      "info": "2 Adults | King-size bed | 360 Sq.ft",
-      "photos": [
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-luxury4.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-luxury3.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-luxury2.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-luxury1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-premium1-1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-premium3-1.jpg",
-      ],
-    },
-    "gwt-stay-greenwood-suite": {
-      "name": "The Greenwood Suite",
-      "desc": "Experience the sheer luxury of space and convenience with an elegantly designed bedroom and living area that blends the comfort of home with the design and luxury of Greenwood.",
-      "info": "2 Adults | King-size bed | 420 Sq.ft",
-      "photos": [
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-suite10.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-suite8.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-suite6.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-suite5.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-premium1-1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-premium3-1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-suite9.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-suite7.jpg",
-      ],
-    },
-    "gwg-stay-luxury-room": {
-      "name": "The Luxury Room",
-      "desc": "A perfect combination of aesthetic design and open space as you make the best of our amenities to help you take care of your work, or simply unwind and relax.",
-      "info": "2 Adults | Queen-size bed | 320 Sq.ft",
-      "photos": [
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/11/gwg-luxury-rooms1.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/11/gwg-luxury-rooms6.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/11/gwg-luxury-rooms3.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/11/gwg-luxury-banner.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/11/gwg-luxury-rooms7.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/11/gwg-luxury-rooms2.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/11/gwg-luxury-rooms5.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/11/gwg-luxury-rooms4.jpg",
-      ],
-    },
-    "gwg-stay-greenwood-suite": {
-      "name": "The Greenwood Suite",
-      "desc": "Experience the sheer luxury of space and convenience with an elegantly designed bedroom and living area that blends the comfort of home with the design and luxury of Greenwood.",
-      "info": "2 Adults | King-size bed | 450 Sq.ft",
-      "photos": [
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-suite6.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-suite5.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-suite7.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-suite4.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-suite2.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-suite3.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-suite8.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-suite9.jpg",
-        "https://thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-suite1.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero2.jpg",
+        "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-aroma1.jpg",
       ],
     },
 
@@ -158,15 +84,51 @@ const FNB = ({ page }) => {
       <Box sx={{ display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center', gap: 2 }}>
         <RoomCard photos={fnb_data[page]["photos"]} />
 
-        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, mt: 4, mb: 1 }}>
-          <Box component="img" sx={{ width: 35, height: 35 }} src="https://thegreenwoodhotels.com/wp-content/uploads/2022/05/logo-sm.png" />
-          <Typography sx={{ fontFamily: "Savoy Regular", fontSize: 30, letterSpacing: 0 }}>{fnb_data[page]["name"]}</Typography>
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, mt: 2, mb: 1 }}>
+          <Box component="img" sx={{ height: 100 }} src={fnb_data[page]["logo"]} />
+
         </Box>
 
-        <Typography sx={{ fontSize: 15, textAlign: 'justify', fontFamily: "Freight Big Light", color: "#222" }}>{fnb_data[page]["desc"]}</Typography>
+        <Typography sx={{
+          textAlign: 'center', fontSize: 25, letterSpacing: 2,
+          fontFamily: "Freight Big Bold", mt: 1, textTransform: "capitalize",
+          color: "#222", fontWeight: 600,
+        }}>
+          {fnb_data[page]["info"]}</Typography>
 
-        <Typography sx={{ textAlign: 'center', fontSize: 15, fontWeight: 700, fontFamily: "Avenir Book", mt: 5 }}>{fnb_data[page]["info"]}</Typography>
+        <Typography sx={{ fontSize: 16, textAlign: 'justify', fontFamily: "Freight Big Light", letterSpacing: 1.7, color: "#222" }}>{fnb_data[page]["desc"]}</Typography>
 
+        <Grid container spacing={2}>
+          <Grid item xs={6} sm={6} md={6}>
+            <Typography sx={{ fontSize: 19, textAlign: 'justify', fontFamily: "Freight Big Light", letterSpacing: 1.7, color: "red", mb: -1, mt: 2 }}>Daily Open</Typography>
+            <Typography sx={{ fontSize: 16, textAlign: 'justify', fontFamily: "Freight Big Light", letterSpacing: 1.7, color: "black" }}>{fnb_data[page]["timings"]}</Typography>
+          </Grid>
+          <Grid item xs={6} sm={6} md={6}>
+            <Box sx={{ textAlign: "right" }}>
+              <Link href={fnb_data[page]["foodmenu"]}>
+                <img src="/assets/images/food-menu.png" alt="" width={60} />
+              </Link>
+
+              {
+                fnb_data[page]["drinksmenu"] ? (
+                  <Link href={fnb_data[page]["drinksmenu"]}>
+                    <img src="/assets/images/drinks-menu.png" alt="" width={82} />
+                  </Link>
+                ) : (<></>)
+              }
+
+            </Box>
+
+          </Grid>
+
+        </Grid>
+
+
+
+        <Typography sx={{ fontSize: 16, textAlign: 'center', fontFamily: "Savoy Regular", letterSpacing: 1.7, color: "#222", mb: -1 }}>CONTACT DETAILS</Typography>
+        <Typography sx={{ fontSize: 19, textAlign: 'center', fontFamily: "Freight Big Light", letterSpacing: 1.7, color: "red", mb: -2 }}>{fnb_data[page]["email"]}</Typography>
+        <Typography sx={{ fontSize: 19, textAlign: 'center', fontFamily: "Freight Big Light", letterSpacing: 1.7, color: "red", mb: -2 }}>{fnb_data[page]["phone"]}</Typography>
+        <Typography sx={{ fontSize: 19, textAlign: 'center', fontFamily: "Freight Big Light", letterSpacing: 1.7, color: "red" }}>Follow us on instagram @{fnb_data[page]["insta"]}</Typography>
         <Box sx={{ display: 'flex', flexDirection: 'column' }}>
 
           <img src="/assets/images/gwr/gwr-bagan-foot.jpg" alt="Bagan" width="100%" />

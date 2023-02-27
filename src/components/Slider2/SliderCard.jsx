@@ -44,7 +44,7 @@ const RoomCard = ({photos}) => {
                         <div key={index}>
                         <Box component='img'
                             src={item}
-                            sx={{height:200, width:'100%', overflow:'hidden', display:'block', borderRadius:3}}
+                            sx={{height:"250px", width:'100%', overflow:'hidden', display:'block', borderRadius:3, objectFit:"contain"}}
                         />
                     </div>
                     )
