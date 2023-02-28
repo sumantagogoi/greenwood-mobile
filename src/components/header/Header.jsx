@@ -24,7 +24,7 @@ const Header = () => {
                     </Box>
                     <Box>
                         <Button onClick={()=> navigate('/stay')}>
-                            <Typography sx={{ color: '#666', fontFamily: 'Savoy Regular', fontSize: '70%', bgcolor: 'white', mr: 1, ml: 2, pl: 2, pr: 2, pt: .5, pb: .5, mt: 1, mb:1, borderRadius: 4 }}>Book Rooms</Typography>
+                            <Typography sx={{ color: '#666', fontFamily: 'Savoy Regular', fontSize: '70%', bgcolor: 'white', mr: -2, ml: 3, pl: 2, pr: 2, pt: .5, pb: .5, mt: 0, mb:1, borderRadius: 4 }}>Book Rooms</Typography>
                         </Button>
                     </Box>
                 </Box>
