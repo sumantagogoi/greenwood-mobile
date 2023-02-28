@@ -59,31 +59,28 @@ const CategoryTabs = ({ page }) => {
   const keys = pathname.split(/[/-]/);
   //console.log(keys+"asdasd")
   let ln = keys[2] == "event" ? keys[1] + "-" + keys[2] + "-" + keys[3] : keys[1] + "-" + keys[2];
+  let sz =  keys[2] == "event" ? 4 : 3;
   const exists = Object.keys(gwItems).includes(ln);
 
-  ln = exists ? ln : "gwm";
-  return (
+  return (exists && (keys.length > sz )) ? (
 
-    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1c3f35', position: 'sticky', zIndex: 1 }}>
+    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#2c4f35', position: 'sticky', zIndex: 1, mt:0.1}}>
 
       <Tabs variant='scrollable' allowScrollButtonsMobile sx={{
-             color: 'white'
-      }}
-        value={pathname} theme={theme}>
+             color: 'white',         
+      }} className="minhite"  value={pathname} theme={theme}>
         {
           gwItems[ln].map((item, index) => {
             const link = gwItems[`${ln}-l`][index];
-            return exists ? (
-              <Tab label={item} className={index == gwItems[ln].length - 1 ? "navTab2" : "navTab"} value={`/${ln}-${link}`} component={Link} to={`/${ln}-${link}`} ></Tab>
-            ) : (
-              <Tab label={item} className={index == gwItems[ln].length - 1 ? "navTab2" : "navTab"} value={`/${link}`} component={Link} to={`/${link}`}  ></Tab>
-            );
+            return  (
+              <Tab label={item} className={index == gwItems[ln].length - 1 ? "navTab2" : "navTab"} value={`/${ln}-${link}`} component={Link} to={`/${ln}-${link}`}  ></Tab>
+            ) 
           })
         }
       </Tabs>
     </Box>
 
-  );
+  ):(<></>);
 }
 
 export default CategoryTabs

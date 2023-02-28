@@ -2,16 +2,23 @@
     color:white!important;
     font-family: 'Savoy Regular'!important;
     border-right: 1px solid white!important;
-    font-size: x-small!important;
+    font-size: 11px!important;
+    min-height:30px!important;
 }
 
+.minhite {
+    min-height: 40px!important;
+    
+}
 
 .navTab2{
     color:white!important;
     font-family: 'Savoy Regular'!important;
     font-size: x-small!important;
-    margin-left: 3px;    
+    margin-left: 3px; 
+    min-height: 30px!important;
 }
+
 
 a.navTab.Mui-selected span, .navTab2.Mui-selected span{
     background-color:#419078!important;
@@ -24,5 +31,4 @@ font-family: 'Savoy Regular'!important;
 text-decoration: underline;
     z-index: 99;
 }
-
 

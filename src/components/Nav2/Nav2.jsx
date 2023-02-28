@@ -21,8 +21,6 @@ const Nav2 = ({ page }) => {
     }
     var gw = page.substr(0, 3)
     const gwx = Object.keys(gwdata).includes(gw)
-    var name = gwx ? gwdata[gw] : "The<br> Greenwood";
-    var gw1 = gwx ? gw : "";
     var gw2 = gwx ? gw + "-" : "";
 
     const location = useLocation();
@@ -34,14 +32,7 @@ const Nav2 = ({ page }) => {
 
                 <Stack sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
 
-                    <Link to={`/${gw1}`}>
-                        <Button>
-                            <Stack sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', borderRight: '1px solid white', paddingRight: '8px' }}>
-
-                                <Typography sx={{ color: 'white', fontFamily: 'Savoy Regular', fontSize: 'x-small', }} dangerouslySetInnerHTML={{ __html: name }}></Typography>
-                            </Stack>
-                        </Button>
-                    </Link>
+                 
 
                     <Tabs sx={{
                         color: 'white', backgroundColor: '#1c3f45'

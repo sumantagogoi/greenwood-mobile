@@ -9,8 +9,7 @@ import GWContact from './home/contact';
 import GWFamily from './home/gwf';
 import Kayana from './home/kayana';
 import FNB from './FNB';
-import FNB2 from './FNB2';
-import FnB from '../components/FnB/FnB';
+import ComingSoon from './ComingSoon';
 import Catalog from './Catalog';
 import CatalogGW from './home/Catalog2';
 import DiscoverAssam from './home/DiscoverAssam';
@@ -39,12 +38,12 @@ const MainSection = ({ page }) => {
     "gwr-fnb-mynah": FNB, 
     "gwr-fnb-bagan": FNB, 
     "gwr-fnb-aroma": FNB, 
-    "gwr-fnb-jolpan": FNB2, 
+    "gwr-fnb-jolpan": ComingSoon, 
     "gwr-event-bookings": Catalog, 
     "gwr-event-bookings-majuli-hall": Events, 
     "gwr-event-bookings-majuli-lawn": Events,
     "gwr-event-bookings-kamarup-hall": Events, 
-    "gwr-event-bookings-pobitora-lawn": Events, 
+    "gwr-event-bookings-pobitora-lawn": ComingSoon, 
     "gwr-event-bookings-nameri-hall": Events, 
     "gwr-event-bookings-nameri-lawn": Events, 
     "gwr-event-bookings-umananda-hall": Events, 
@@ -55,9 +54,9 @@ const MainSection = ({ page }) => {
     "gwg-stay-luxury-room": Rooms, 
     "gwg-stay-greenwood-suite": Rooms, 
     "gwg-fnb": Catalog, 
-    "gwg-fnb-jholoe": FNB2, 
-    "gwg-fnb-kiya": FNB2, 
-    "gwg-fnb-bagan": FNB2, 
+    "gwg-fnb-jholoe": FNB, 
+    "gwg-fnb-kiya": FNB, 
+    "gwg-fnb-bagan": FNB, 
     "gwg-event-bookings": Events, 
     "gwg-event-bookings-xorai": Events, 
     "gwg-spa-kayana": Kayana, 
@@ -68,9 +67,9 @@ const MainSection = ({ page }) => {
     "gwt-stay-luxury-room": Rooms, 
     "gwt-stay-greenwood-suite": Rooms,  
     "gwt-fnb": Catalog, 
-    "gwt-fnb-mynah": FNB2, 
-    "gwt-fnb-bagan": FNB2, 
-    "gwt-fnb-aroma": FNB2, 
+    "gwt-fnb-mynah": FNB, 
+    "gwt-fnb-bagan": FNB, 
+    "gwt-fnb-aroma": FNB, 
     "gwt-event-bookings": Catalog, 
     "gwt-event-bookings-orang-hall": Events, 
     "gwt-event-bookings-orang-lawn": Events, 
@@ -88,7 +87,7 @@ const MainSection = ({ page }) => {
   const Elmnt = React.createElement(Compnt, {page});
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', height: "80vh"}} className=" bg1 scrollable-y">     
+    <Box sx={{ display: 'flex', flexDirection: 'column', height: "100vh", mb: 10}} className=" bg1 scrollable-y">     
       <Box sx={{ display: 'flex',  flexDirection: 'row', mt: 6 }}>
         { Elmnt }
       </Box>      

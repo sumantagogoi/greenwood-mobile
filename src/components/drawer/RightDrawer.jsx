@@ -27,10 +27,10 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
         sx: {
           backgroundColor: "#173632",
           color: "white",
-          borderRadius: "30px 0 0 30px",
+          borderRadius: "0 30px 30px 0",
         },
       }}
-      anchor="right"
+      anchor="left"
       open={navopen}
       onClose={() => setNavOpen(false)}
       onOpen={() => setNavOpen(true)}
@@ -38,11 +38,11 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
       disableDiscovery={iOS}
     >
 
-      <Box sx={{ width: 350 }}>
+      <Box sx={{ maxWidth:"90vw" , width: 450, }}>
         <Box textAlign="center" sx={{ mt: 3, mb: 0, ml: -10 }}>
           <img onClick={() => navigate('/')} className='logo' src='https://www.thegreenwoodhotels.com/wp-content/uploads/2022/04/logo2x.png' />
         </Box>
-        <Box textAlign="right" sx={{ mt: -5, mb: 4 }}>
+        <Box textAlign="right" sx={{ mt: -5, mb: 4, mr: 2 }}>
           <IconButton onClick={() => setNavOpen(false)}>
             <GiTireIronCross color='white' />
           </IconButton>
@@ -50,7 +50,7 @@ const RightDrawer = ({ navopen, setNavOpen }) => {
 
         <Divider sx={{ border: 1 }} />
 
-        <Box sx={{ mt: 2 }}>
+        <Box sx={{ mt: 2, }}>
           <List className="link-style2">
 
             <ListItem disablePadding className="link-style2" >

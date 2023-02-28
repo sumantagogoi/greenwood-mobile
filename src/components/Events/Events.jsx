@@ -146,6 +146,7 @@ const Events = ({ page }) => {
                 "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/01/gwr-umananda6.jpg",
             ],
         },
+
         "gwr-event-bookings-kamarup-hall": {
             "name": "Kamarup Banquet",
             "desc": "A heartfelt banqueting occasion in the company of your family, friends and professional associates embraces you at The Greenwood Hotels & Resorts with a warm welcome. Each moment of family gatherings and corporate events – small or large, intimate or grand – becomes extra special and bright owing to our first-rate hospitality, roomy spaces, and thoughtful planning.",
@@ -174,6 +175,34 @@ const Events = ({ page }) => {
                 "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-kamarup-banq32.jpg",
                 "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-kamarup-banq33.jpg",
             ],
+        },
+
+        "gwr-event-bookings-umananda-hall": {
+            "name": "Umananda Banquet",
+            "desc": "Cherish some delightful times with your family and professional peers at Umananda, named after Guwahati’s smallest inhabited river islet. An ardent gathering of grandeur awaits you at a beautiful 102 x 120 square-feet outdoor space— forming the front yard of Mynah’s and Aroma— that’s bestowed with the best-in-class amenities and extremely courteous staff.",
+            "info": {
+                "maxcap": "500",
+                "area": "6,222",
+                "entrys": "1",
+                "theatre": "450",
+                "classroom": "257",
+                "cluster": "300",
+                "ushape": "102",
+                "social": "500",
+            },
+            "photos": [
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-umananda2-q0v9ld9w6dwcalakii10sac9u4wfcad473zylaao4g.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-umanandalawn-hero1-pugtjf2aajogpcmo6gif02wlx1x8iw04vi4ejvezkw.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-umananda3-q0v9lf5kk1ywxt7u7iu9x9v70wn5rokkvdaxju7vs0.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/Lawns-Umananda-Hall4-pqm1ysgcf5f15f6c4uvnvqiv2vhkbg6cr1etwwwp0g.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-umanandalawn-pic21-pugtzak5ptess9kjhbjl42ov3boeiv0xq2rmc3vmhs.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/Lawns-Umananda-Hall3-pqm1ypmtunb66laflbns698hapvgocv5qngdh30vj4.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-umanandalawn-pic22-pugtzbhzwng33vj6bty7okgbopjrqk4o27f3tdu8bk.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/Lawns-Umananda-Hall1-e1655765078669-pqm39w56w9waxyr937umtumepzbq1f64k6aro32h7k.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-umananda5-q0v9liwxbe42892dlkgs78x1eg4mmgzi7vwvgy2b34.jpg",
+                "https://www.thegreenwoodhotels.com/wp-content/uploads/elementor/thumbs/gwr-umananda6-q0v9lkslp26mvgznala1c8fyl7vd1v6yw57ufhziqo.jpg",
+            ]
+    
         },
 
         "gwg-event-bookings-xorai": xorai,
@@ -267,7 +296,7 @@ const Events = ({ page }) => {
 
         <Container maxWidth='md' sx={{ mt: -4 }}>
             <Box sx={{ display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center', gap: 2 }}>
-                <RoomCard photos={event_data[page]["photos"]} />
+                <RoomCard key={page} photos={event_data[page]["photos"]} />
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, mt: 4, mb: 1 }}>
                     <Box component="img" sx={{ width: 35, height: 35 }} src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/logo-sm.png" />
                     <Typography sx={{ fontFamily: "Savoy Regular", fontSize: 30, letterSpacing: 0 }}>{event_data[page]["name"]}</Typography>

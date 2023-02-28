@@ -157,7 +157,7 @@ const Room = ({ page }) => {
 
         <Container maxWidth='md' sx={{ mt: -4 }}>
             <Box sx={{ display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center', gap: 2 }}>
-                <RoomCard photos={room_data[page]["photos"]} />
+                <RoomCard key={page} photos={room_data[page]["photos"]} />
 
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, mt: 4, mb: 1 }}>
                     <Box component="img" sx={{ width: 35, height: 35 }} src="https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/logo-sm.png" />
