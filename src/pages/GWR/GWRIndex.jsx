@@ -1,7 +1,7 @@
 import { Box, Container, Typography } from '@mui/material';
 import '../home/GW.css';
 import ImageSlider from '../../components/slider/slider';
-
+import Facility from '../../components/facility';
 
 
 const GW = () => {
@@ -43,6 +43,8 @@ const GW = () => {
             </Typography>
 
             <Typography sx={{ m: 4, fontFamily: 'An Either Lifetime', fontSize: '20px' }}> Gateway to The North-East</Typography>
+
+            <Facility />
 
          
 

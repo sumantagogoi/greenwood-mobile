@@ -84,7 +84,7 @@ const MainSection = ({ page }) => {
       };
 
   const Compnt = PathToComponent[page];
-  const Elmnt = React.createElement(Compnt, {page});
+  const Elmnt = React.createElement(Compnt, {page, key:page});
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: "100vh", mb: 10}} className=" bg1 scrollable-y">     
