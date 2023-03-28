@@ -73,7 +73,7 @@ const CategoryTabs = ({ page }) => {
           gwItems[ln].map((item, index) => {
             const link = gwItems[`${ln}-l`][index];
             return  (
-              <Tab label={item} className={index == gwItems[ln].length - 1 ? "navTab2" : "navTab"} value={`/${ln}-${link}`} component={Link} to={`/${ln}-${link}`}  ></Tab>
+              <Tab label={item} className={index == gwItems[ln].length - 1 ? "navTab2" : "navTab"} value={`/${ln}-${link}`} key={`/${ln}-${link}`} component={Link} to={`/${ln}-${link}`}  ></Tab>
             ) 
           })
         }

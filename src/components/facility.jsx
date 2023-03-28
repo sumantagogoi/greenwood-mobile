@@ -1,59 +1,82 @@
 import { Box, Button, Typography } from '@mui/material';
-import { styled, makeStyles } from '@mui/material/styles';
+import { makeStyles } from '@mui/styles';
+import { Link } from 'react-router-dom';
 
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    position: 'relative',
-    height: '300px',
-    overflow: 'hidden',
-    padding: theme.spacing(2),
-    backgroundImage: 'url(https://source.unsplash.com/random)',
-    backgroundSize: 'cover',
-    filter: 'blur(8px)',
-  },
-  overlay: {
-    position: 'absolute',
-    width: '100%',
-    height: '100%',
-    backgroundColor: 'rgba(0,0,0,0.5)',
-    zIndex: 1,
-  },
+
+
   content: {
     position: 'relative',
-    zIndex: 2,
-    color: '#fff',
+    height: '100%',
+    padding: theme.spacing(3),
+    paddingTop: 80,
+    paddingBottom: 80,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: '#ffffff',
+    zIndex: 14,
   },
+
   button: {
     marginTop: theme.spacing(2),
-    backgroundColor: 'transparent',
-    color: '#fff',
-    border: '1px solid #fff',
-    borderRadius: theme.spacing(1),
-    '&:hover': {
-      backgroundColor: '#fff',
-      color: '#000',
-    },
+    backgroundColor: 'rgba(0,0,0,0)',
+    borderRadius: '20px',
+    color: '#ffffff',
+    border: '1px solid #ffffff',
+    zIndex: 15,
   },
 }));
 
-export default function Facility() {
+export default function Facility({ contnt }) {
+
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <div className={classes.overlay} />
-      <div className={classes.content}>
-        <Typography variant="h4" component="h1">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <Box sx={{
+      position: 'relative',
+      marginTop: 3,
+      height: 'auto',
+      minHeight: "300px",
+      borderRadius: '5px',
+      mb: 10,
+
+      '&:before': {
+        content: '""',
+        position: 'absolute',
+        top: '0',
+        left: '0',
+        width: '100%',
+        height: '100%',
+        backgroundImage: `url(${contnt["bg"]})`,
+        filter: 'blur(3px)',
+        zIndex: '2',
+        backgroundSize: "cover",
+      },
+      '&:after': {
+        content: '""',
+        position: 'absolute',
+        top: '0',
+        left: '0',
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'rgba(0,0,0,0.4)',
+        zIndex: '12',
+      },
+    }}>
+      <Box className={classes.content} >
+        <Typography variant="h5" sx={{ mb: 2, fontFamily: "Savoy Regular", textTransform: "uppercase" }}>{contnt["title"]}</Typography>
+        <Typography variant="body1" align="center" sx={{ fontFamily: "Avenir Book", mb: 3 }}>
+          {contnt["text"]}
         </Typography>
-        <Typography variant="body1">
-          Vestibulum quis gravida eros, sit amet ultrices sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-        </Typography>
-        <Button variant="outlined" className={classes.button}>
-          Read More
-        </Button>
-      </div>
-    </div>
+        <Link to={contnt["link"]}>
+          <Button variant="contained" className={classes.button} sx={{ fontFamily: "Savoy Regular", textTransform: "uppercase" }}>
+            View More
+          </Button>
+        </Link>
+      </Box>
+    </Box>
   );
 }

@@ -13,7 +13,7 @@ const Home = ({page}) => {
   <Box sx={{display:'flex', flexDirection:'column', height:'100vh'}}>
         <Header/>
         <LocationTab page={page} />
-        <CategoryTabs page={page} />
+        <CategoryTabs page={page} key={page+"cat"}/>
         <MainSection key={page} page={page} />        
   </Box>
   )

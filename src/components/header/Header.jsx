@@ -16,7 +16,7 @@ const Header = () => {
         <Box sx={{ display: 'flex', height: 60, width: '100%', backgroundColor: '#173632' }}>
             <Container>
                 <Box sx={{ display: 'flex', height: '100%', pt: 1 }}>
-                    <IconButton onClick={() => setNavOpen(true)} sx={{ width: 50, mr: 1 }}>
+                    <IconButton onClick={() => setNavOpen(true)} sx={{ width: 50, mr: 1, ml: -3 }}>
                         <GiHamburgerMenu color='white' />
                     </IconButton>
                     <Box sx={{ justifyContent: 'space-between', alignItems: 'center', m: "auto" }}>
