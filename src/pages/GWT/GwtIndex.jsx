@@ -1,7 +1,5 @@
 import { Box, Container, Typography } from '@mui/material';
 import '../home/GW.css';
-import ImageSlider from '../../components/slider/slider';
-
 
 
 const GWTIndex = () => {

@@ -1,6 +1,6 @@
 import { Box, Container, Typography } from '@mui/material';
 import '../home/GW.css';
-import InfiniteSlider from '../../components/slider/slider';
+import InfiniteSlider from '../../components/Slider2/slider2';
 import Facility from '../../components/facility';
 
 
@@ -15,7 +15,7 @@ const GW = () => {
     "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero6.jpg",
   ]
 
-  const faci_info = {
+  const info = {
     "stay": {
       "title":"The Stay",
       "bg": "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/GWROOMS_050-1.jpg",
@@ -23,45 +23,68 @@ const GW = () => {
       "link": "/gwr-stay"
     },
 
-    "dine": {
-      "title":"Dining & Bar",
-      "bg": "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/cullinarybg1.jpg",
-      "text": "Combining the finest of traditional Indian cooking with culinary concepts from all over the world, the restaurants & bar at The Greenwood offers distinctive cuisines to choose from. Our Chefs at the Greenwood are trained and equipped with state of art skills and treat you to a great culinary experience. They bring the ingredients and prepare choicest delicacies. Plan a special surprise, or host your family & friends, this is the perfect way to answer both taste and hygiene concerns.",
-      "link": "/gwr-fnb"
-    },
-
     "events": {
-      "title":"Events and Meetings>",
+      "title":"Events and Meetings",
       "bg": "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/1-30edit.jpg",
       "text": "We offer a wide selection of spaces from which you can choose what suits you best, as per your preferences, and the events that you wish to host. Our well-equipped banquet halls have the capacity to accommodate 50 to 500 guests at a time. Our open, wide and green lawns are ideal for a gathering of 400 to 3000 people.",
       "link": "/gwr-event-bookings"
     },
 
     "spa": {
-      "title":"Spa",
+      "title":"The Best Spa Experience",
       "bg": "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/spa3.jpg",
       "text": "Revitalize your senses at The Greenwood",
-      "link": "/kayana"
+      "link": "/gwr-spa-wellness"
     },
 
-    "dine2": [
+    "dine": [
       {
-        "title": 'Slide 1',
-        "image": 'https://source.unsplash.com/random/400x225',
-        "description": 'Description for slide 1',
+        "title": 'AROMA: Modern Dining',
+        "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/GWMYNAH_12.jpg',
+        "description": 'A one-of-a-kind culinary experience at Aroma, a warmly familial multi-cuisine restaurant...',
+        "link":"/gwr-fnb-aroma",
       },
       {
-        "title": 'Slide 2',
-        "image": 'https://source.unsplash.com/random/400x225',
-        "description": 'Description for slide 2',
+        "title": 'BAGAN: Poolside Cafe',
+        "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/bagan-2x.jpg',
+        "description": 'Drop in to get a glimpse of the natural beauty and warmth of Assam at our cosy and dreamy Cafe Bagan... ',
+        "link":"/gwr-fnb-bagan",
       },
       {
-        "title": 'Slide 3',
-        "image": 'https://source.unsplash.com/random/400x225',
-        "description": 'Description for slide 3',
-      },
+        "title": "MYNAH'S: Bar & Bistro",
+        "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/GWMYNAH_04.jpg',
+        "description": 'Settle in for a pleasant and joyful time at our bar, Mynah’s, a name inspired by a bird local to Assam...',
+        "link":"/gwr-fnb-mynah",
+      },      
       // add more slides as needed
     ],
+
+    "acti": [
+      {
+        "title": 'The Greenwood Poolside',
+        "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/DSC8499-Edit.jpg',
+        "description": 'For relaxing or refreshing our swimming pool is the ideal place to unwind, just beside the cosy Bagan cafe. Enjoy it in solitude or with friends and family, the pool area is our little sanctuary.',
+        "link":"",
+      },
+      {
+        "title": "Bah: The Library",
+        "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/bah-gwr-hom1.jpg',
+        "description": 'Unleash the bibliophile in you at our well stocked library, featuring an enormous collection of books of all genres to keep you engrossed during your stay with us.',
+        "link":"",
+      },
+      {
+        "title": "Greenwood Play Area",
+        "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/kids.jpg',
+        "description": "Well-stocked with toys and games of many kinds and new ways to learn, our kid’s play area makes for the perfect space for the little ones to come and enjoy their time under supervision..",
+        "link":"",
+      },
+      {
+        "title": "The Greenhouse",
+        "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/GW-Farm5.jpg',
+        "description": "We believe in the concept of farm to table dining, allowing our guests to experience exactly how the finest produce is brought to their table, creating mouth-watering dishes.",
+        "link":"",
+      },
+    ]
     
   }
 
@@ -94,15 +117,15 @@ const GW = () => {
 
             <Typography sx={{ m: 4, fontFamily: 'An Either Lifetime', fontSize: '20px' }}> Gateway to The North-East</Typography>
 
-            <Facility  contnt = {faci_info["stay"]} key="gwrstay" />
+            <Facility  contnt = {info["stay"]} key="gwrstay" />
 
-            <Facility  contnt = {faci_info["dine"]} key="dine" />
+            <InfiniteSlider data = {info["dine"]} title="Dining & Bar" key="gwrdine"  />
 
-            <Facility  contnt = {faci_info["events"]} key="events" />
+            <Facility  contnt = {info["events"]} key="events" />
 
-            <Facility  contnt = {faci_info["spa"]} key="spa" />
+            <Facility  contnt = {info["spa"]} key="spa" />
 
-            {/* <InfiniteSlider data = {faci_info["dine"]} key="gwrdine"  /> */}
+            <InfiniteSlider data = {info["acti"]} title="Discover Activities" key="gwracti"  />            
         
           </Box>
         </Container>

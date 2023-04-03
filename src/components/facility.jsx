@@ -20,14 +20,6 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 14,
   },
 
-  button: {
-    marginTop: theme.spacing(2),
-    backgroundColor: 'rgba(0,0,0,0)',
-    borderRadius: '20px',
-    color: '#ffffff',
-    border: '1px solid #ffffff',
-    zIndex: 15,
-  },
 }));
 
 export default function Facility({ contnt }) {
@@ -40,6 +32,7 @@ export default function Facility({ contnt }) {
       marginTop: 3,
       height: 'auto',
       minHeight: "300px",
+      width: '100%',
       borderRadius: '5px',
       mb: 10,
 
@@ -72,7 +65,14 @@ export default function Facility({ contnt }) {
           {contnt["text"]}
         </Typography>
         <Link to={contnt["link"]}>
-          <Button variant="contained" className={classes.button} sx={{ fontFamily: "Savoy Regular", textTransform: "uppercase" }}>
+          <Button variant="contained" sx={{
+            fontFamily: "Savoy Regular", textTransform: "uppercase",
+            backgroundColor: 'rgba(0,0,0,0)',
+            borderRadius: '20px',
+            color: '#ffffff',
+            border: '1px solid #ffffff',
+            zIndex: 15,
+          }}>
             View More
           </Button>
         </Link>
