@@ -55,7 +55,7 @@ const RoomCard = ({ data, title }) => {
                         <div key={index}  >
                             <Box key={index} sx={{ width: "22vw", display: "flex", justifyContent: "center", alignItems: "center", margin: "auto" }}>
                                 <CardContent sx={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: 250 }}>
-                                    <Typography variant="h6" sx={{fontFamily: "Savoy Regular"}}>{item.title}</Typography>
+                                    <Typography variant="h7" sx={{fontFamily: "Savoy Regular"}}>{item.title}</Typography>
                                     <CardMedia image={item.image} sx={{ width: 250, height: 250, objectFit: "cover" }} />
                                     <Typography variant="body1" sx={{ fontFamily: "Avenir Book", mt: 2, mb: -1 }}>{item.description}</Typography>
                                 </CardContent>
