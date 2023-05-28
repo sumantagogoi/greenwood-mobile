@@ -18,7 +18,7 @@ const GWTIndex = () => {
   const info = {
     "stay": {
       "title": "The Stay",
-      "bg": "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Group-1336.png",
+      "bg": "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/05/gwt-stay.jpg",
       "text": "Pick from our selection of well-appointed rooms under the categories of Executive, Premium and Deluxe Rooms, all of which distinctly redefine comfort and luxury. Touching the eye-pleasing surroundings of our property and featuring convenient amenities, each of our rooms emanates unmistakable richness in all aspects to embed the stay on the mind forever.",
       "link": "/gwt-stay"
     },
