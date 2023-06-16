@@ -7,67 +7,68 @@ import Facility from '../../components/facility';
 const GW = () => {
 
     const info = {
-        "stay": {
+        "gwfamily": {
           "title": "The Greenwood Family",
           "bg": "/assets/images/greenwood-family1.jpg",
           "text": "We are a family that stands behind our family and the people that make up the soul of our brand. Any contribution they make takes us a step towards serving our guests better. We strive to give them a sense of belonging and motivate them persistently to keep growing with us on our journey together.",
           "link": "/gw-family"
         },
     
-        "events": {
-          "title": "Events and Meetings",
-          "bg": "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/07/gwh-tezpur4.jpg",
-          "text": "We offer a range of events and meetings packages. We can also tailor-make packages to match your preferences and special requests.",
-          "link": "/gwt-event-bookings"
+        "discoverassam": {
+          "title": "Discover Assam",
+          "bg": "https://www.thegreenwoodhotels.com/wp-content/uploads/2023/01/rhino.jpg",
+          "text": "Come get a glimpse of a land that’s strongly entrenched in its glorious history, diverse traditions and plentiful adventures",
+          "link": "/discover-assam"
         },
     
-        "spa": {
-          "title": "The Best Spa Experience",
-          "bg": "https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/spa3.jpg",
-          "text": "Revitalize your senses at The Greenwood",
-          "link": "/gwt-spa-wellness"
-        },
+        
     
-        "gwpropert": [
+        "gwproperty": [
           {
-            "title": 'Greenwood Resort, Guwahati',
-            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/07/Tezpur-Flavours-Selection.jpg',
-            "description": "Aroma offers a lip-smacking spread of global cuisine, special menus on select days...",
-            "link": "/gwt-fnb-aroma",
+            "title": 'The Greenwood Resort, Guwahati',
+            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwr-main-hero4.jpg',
+            "description": "The Greenwood Resort perfectly marries the splendour of a rich, modern-day resort...",
+            "link": "/gwr",
           },
           {
-            "title": 'BAGAN: Garden Cafe',
-            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/07/gwh-tezpur-bagan.jpg',
-            "description": 'Drop in to get a glimpse of the natural beauty and warmth of Assam at our cosy and dreamy... ',
-            "link": "/gwt-fnb-bagan",
+            "title": 'The Greenwood, Tezpur',
+            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwht-oranglawn8.jpg',
+            "description": "Standing as one of the most prominent luxury escapes in the town of Tezpur...",
+            "link": "/gwt",
           },
           {
-            "title": "MYNAH'S by Arrack",
-            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/07/Tezpur-Mynah-Selection1.jpg',
-            "description": 'Settle in for a pleasant and joyful time at our bar, Mynah’s, a name inspired by a bird local to Assam...',
-            "link": "/gwt-fnb-mynah",
+            "title": "The Greenwood, Guwahati",
+            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/11/Facade-1-of-9.jpg',
+            "description": "Greenwood's newest property in Beltola, Guwahati has set a new bar... an urban oasis to nurture unparalleled leisure",
+            "link": "/gwg",
           },
           // add more slides as needed
         ],
     
-        "acti": [
+        "gwexp": [
           {
-            "title": 'Gymnasium',
-            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwh-tezpur-6.jpg',
-            "description": 'Whether you are looking for an intense workout session, basic warm-up or just an energy boost, our fitness centre comes well-equipped to meet all your healthy lifestyle.',
-            "link": "",
+            "title": 'The Stay',
+            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-exec-suite9-1.jpg',
+            "description": "World-class hospitality and luxurious ensuite amenities create a charming haven mirroring the warmth of your home away from home.",
+            "link": "/stay",
           },
           {
-            "title": "Safari Tour",
+            "title": "Dining and Bar",
             "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Group-1339.png',
-            "description": 'Enjoy a one day safari trip to the UNESCO World Heritage Site – The Kaziranga National Park, home of the one-horned rhino.',
-            "link": "",
+            "description": "Treat yourself to global culinary creations, refined cocktail concoctions, and groovy music at our chain of cafes, restaurants and bar spaces.",
+            "link": "/fnb",
           },
           {
-            "title": "Tea Bagan Tour",
-            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/07/gwht-teagardens-tezpur.jpg',
-            "description": "Surrounded around 73 tea gardens and that includes the biggest tea garden in the world. Enjoy the essence of culture and the flavour of tea while you are in Tezpur.",
-            "link": "",
+            "title": "Events and Bookings",
+            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/gw-events.jpg',
+            "description": "Choose from an unparalleled selection of banquet halls, lush lawns and conferencing facilities across all of The Greenwood properties.",
+            "link": "/event-bookings",
+          },
+          {
+            "title": "Spa and Wellness",
+            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/05/Kayan-bg1-01-768x764.jpg',
+            "description": "Seasoned and trained experts, cosy and soothing settings and state-of-the-art amenities come together to pamper you during your time at The Greenwood Hotels & Resorts.",
+            "link": "/spa-wellness",
           },
       
         ]
@@ -100,8 +101,15 @@ const GW = () => {
 
                     <Typography sx={{ fontFamily: "Savoy Italic" }}> Amongst the mountains and lanes</Typography>
 
-                    <Facility contnt={info["stay"]} key="gwrstay" />
-                   
+                    <Facility contnt={info["gwfamily"]} key="gwfamily" />
+
+                    <InfiniteSlider data={info["gwproperty"]} title="The Greenwood Properties" key="gwproperty" />  
+                    
+                    <Box sx={{mt: 10}}></Box>
+
+                    <InfiniteSlider data={info["gwexp"]} title="The Greenwood Experience" key="gwexp"/>   
+
+                    <Facility contnt={info["discoverassam"]} key="discoverassam" />                  
 
 
                 </Box>
