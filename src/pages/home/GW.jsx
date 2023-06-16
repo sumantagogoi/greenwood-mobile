@@ -54,7 +54,7 @@ const GW = () => {
           },
           {
             "title": "Dining and Bar",
-            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/Group-1339.png',
+            "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/06/gwr-mynah8.jpg',
             "description": "Treat yourself to global culinary creations, refined cocktail concoctions, and groovy music at our chain of cafes, restaurants and bar spaces.",
             "link": "/fnb",
           },

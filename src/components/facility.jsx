@@ -44,7 +44,7 @@ export default function Facility({ contnt }) {
         width: '100%',
         height: '100%',
         backgroundImage: `url(${contnt["bg"]})`,
-        filter: 'blur(3px)',
+        filter: 'blur(2px)',
         zIndex: '2',
         backgroundSize: "cover",
       },
