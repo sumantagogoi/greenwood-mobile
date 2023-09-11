@@ -48,8 +48,8 @@ const CategoryTabs = ({ page }) => {
     "gwt-spa": ["Kayana"],
     "gwt-spa-l": ["kayana"],
 
-    "gwm": ["Home","The Greenwood Resort", "The Greenwood, Tezpur", "The Greenwood, Guwahati", "The Greenwood Family", "Contact"],
-    "gwm-l": ["","gwr", "gwt", "gwg", "gw-family", "contact"]
+    "gwm": ["Home", "The Greenwood Resort", "The Greenwood, Tezpur", "The Greenwood, Guwahati", "The Greenwood Family", "Contact"],
+    "gwm-l": ["", "gwr", "gwt", "gwg", "gw-family", "contact"]
 
   }
 
@@ -59,28 +59,31 @@ const CategoryTabs = ({ page }) => {
   const keys = pathname.split(/[/-]/);
   //console.log(keys+"asdasd")
   let ln = keys[2] == "event" ? keys[1] + "-" + keys[2] + "-" + keys[3] : keys[1] + "-" + keys[2];
-  let sz =  keys[2] == "event" ? 4 : 3;
+  let sz = keys[2] == "event" ? 4 : 3;
   const exists = Object.keys(gwItems).includes(ln);
 
-  return (exists && (keys.length > sz )) ? (
+  return (exists && (keys.length > sz)) ? (
 
-    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#173632', position: 'sticky', zIndex: 1, borderTop: 0.1 || "solid" || "#999"}}>
+    <Box sx={{
+      display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#173632', borderBottom: '0.1px solid #999',
+      width: '100%', zIndex: 99,
+    }}>
 
       <Tabs variant='scrollable' allowScrollButtonsMobile sx={{
-             color: 'white',         
-      }} className="minhite"  value={pathname} theme={theme}>
+        color: 'white',
+      }} className="minhite" value={pathname} theme={theme}>
         {
           gwItems[ln].map((item, index) => {
             const link = gwItems[`${ln}-l`][index];
-            return  (
+            return (
               <Tab label={item} className={index == gwItems[ln].length - 1 ? "navTab2" : "navTab"} value={`/${ln}-${link}`} key={`/${ln}-${link}`} component={Link} to={`/${ln}-${link}`}  ></Tab>
-            ) 
+            )
           })
         }
       </Tabs>
     </Box>
 
-  ):(<></>);
+  ) : (<></>);
 }
 
 export default CategoryTabs

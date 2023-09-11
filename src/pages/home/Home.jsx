@@ -7,15 +7,16 @@ import CategoryTabs from '../../components/CatTabs/CategoryTabs';
 import LocationTab from '../../components/CatTabs/LocationTab';
 
 
-const Home = ({page}) => {
+const Home = ({ page }) => {
 
   return (
-  <Box sx={{display:'flex', flexDirection:'column', height:'100vh'}}>
-        <Header/>
-        <LocationTab page={page} />
-        <CategoryTabs page={page} key={page+"cat"}/>
-        <MainSection key={page} page={page} />        
-  </Box>
+    <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+      <Header />
+      <LocationTab page={page} />
+      
+      <MainSection key={page} page={page} />
+      {/* <CategoryTabs page={page} key={page + "cat"} /> */}
+    </Box>
   )
 }
 

@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { Link, useLocation } from 'react-router-dom';
 import theme from '../fonts';
+import CategoryTabs from '../CatTabs/CategoryTabs';
 
 
 
@@ -27,19 +28,18 @@ const Nav2 = ({ page }) => {
     const pathname = location.pathname;
 
     return (
-        <Paper style={{ position: 'fixed', bottom: 0, width: '100%', zIndex:99 }}>
+        <Paper style={{ position: 'fixed', bottom: 0, width: '100%', zIndex: 99 }}>
+            <CategoryTabs page={page} key={page + "cat"} />
             <Box sx={{ display: 'flex', flexGrow: 0, pt: 0, justifyContent: 'center', backgroundColor: '#173632' }}>
 
                 <Stack sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
-
-                 
 
                     <Tabs sx={{
                         color: 'white', backgroundColor: '#173632'
                     }}
                         value={pathname} theme={theme}>
-                             
-            
+
+
                         <Tab label={
                             <Button className="Navbt">
                                 <Stack>

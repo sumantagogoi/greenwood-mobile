@@ -18,6 +18,7 @@ import Rooms from '../components/rooms/Room';
 import Events from '../components/Events/Events';
 
 
+
 const MainSection = ({ page }) => {
 
   const PathToComponent = {
@@ -88,10 +89,11 @@ const MainSection = ({ page }) => {
   const Elmnt = React.createElement(Compnt, {page, key:page});
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', height: "100vh", mb: 10}} className=" bg1 scrollable-y">     
+    <Box sx={{ display: 'flex', flexDirection: 'column', height: "98vh", mb: 9}} className=" bg1 scrollable-y">     
       <Box sx={{ display: 'flex',  flexDirection: 'row', mt: 6 }}>
         { Elmnt }
-      </Box>      
+      </Box>
+
       <Nav2 page={page}/>
     </Box>
 
