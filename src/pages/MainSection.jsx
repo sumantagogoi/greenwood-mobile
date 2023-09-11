@@ -59,6 +59,7 @@ const MainSection = ({ page }) => {
     "gwg-fnb-jholoe": FNB, 
     "gwg-fnb-kiya": FNB, 
     "gwg-fnb-bagan": FNB, 
+    "gwg-fnb-sakahi": ComingSoon,
     "gwg-event-bookings": Events, 
     "gwg-event-bookings-xorai": Events, 
     "gwg-spa-kayana": Kayana, 
