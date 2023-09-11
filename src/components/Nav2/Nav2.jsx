@@ -27,7 +27,7 @@ const Nav2 = ({ page }) => {
     const pathname = location.pathname;
 
     return (
-        <Paper style={{ position: 'fixed', bottom: 0, width: '100%' }}>
+        <Paper style={{ position: 'fixed', bottom: 0, width: '100%', zIndex:99 }}>
             <Box sx={{ display: 'flex', flexGrow: 0, pt: 0, justifyContent: 'center', backgroundColor: '#173632' }}>
 
                 <Stack sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
