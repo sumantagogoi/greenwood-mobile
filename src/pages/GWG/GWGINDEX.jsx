@@ -42,14 +42,14 @@ const GWGIndex = () => {
         "title": 'Jholoe: Experiential Dining',
         "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-restaurants5.jpg',
         "description": "Bringing to light the balanced duality of the contrary forces of yin and yang, Jholoe...",
-        "link": "/gwg-fnb-aroma",
+        "link": "/gwg-fnb-jholoe",
       },
      
       {
         "title": "Kiya: Jazz Bar & Karaoke",
         "image": 'https://www.thegreenwoodhotels.com/wp-content/uploads/2022/09/gwg-restaurants18.jpg',
         "description": 'Kiya channelises a light pastel vibe that is playfully chic...',
-        "link": "/gwg-fnb-mynah",
+        "link": "/gwg-fnb-kiya",
       },
 
       {
@@ -120,15 +120,15 @@ const GWGIndex = () => {
 
           </Typography>
 
-          <Facility contnt={info["stay"]} key="gwrstay" />
+          <Facility contnt={info["stay"]} key="gwgstay" />
 
-          <InfiniteSlider data={info["dine"]} title="Cullinary" key="gwrdine" />
+          <InfiniteSlider data={info["dine"]} title="Cullinary" key="gwgdine" />
 
-          <Facility contnt={info["events"]} key="events" />
+          <Facility contnt={info["events"]} key="gwgvents" />
 
           <Facility contnt={info["spa"]} key="spa" />
 
-          <InfiniteSlider data={info["acti"]} title="Discover Activities" key="gwracti" />
+          <InfiniteSlider data={info["acti"]} title="Discover Activities" key="gwgacti" />
 
 
         </Box>
