@@ -64,7 +64,7 @@ const CategoryTabs = ({ page }) => {
 
   return (exists && (keys.length > sz )) ? (
 
-    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#2c4f35', position: 'sticky', zIndex: 1, mt:0.1}}>
+    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#173632', position: 'sticky', zIndex: 1, borderTop: 0.1 || "solid" || "#999"}}>
 
       <Tabs variant='scrollable' allowScrollButtonsMobile sx={{
              color: 'white',         

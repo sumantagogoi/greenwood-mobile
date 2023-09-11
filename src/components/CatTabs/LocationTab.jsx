@@ -26,7 +26,7 @@ const CategoryTabs = ({page}) => {
   const ln = "gwm";
   return (
 
-    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1c3f35', position: 'sticky', zIndex: 1, }}>
+    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#173632', position: 'sticky', zIndex: 1, borderTop: 0.1 || "solid" || "#999"}}>
 
       <Tabs variant='scrollable' allowScrollButtonsMobile sx={{
         color: 'white' ,  fontSize: 300    

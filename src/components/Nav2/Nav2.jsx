@@ -35,7 +35,7 @@ const Nav2 = ({ page }) => {
                  
 
                     <Tabs sx={{
-                        color: 'white', backgroundColor: '#1c3f45'
+                        color: 'white', backgroundColor: '#173632'
                     }}
                         value={pathname} theme={theme}>
                              
