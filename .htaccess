@@ -1,0 +1,19 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Redirect non-mobile users to https://www.thegreenwoodhotels.com
+RewriteCond %{HTTP_USER_AGENT} !android [NC]
+RewriteCond %{HTTP_USER_AGENT} !iphone [NC]
+RewriteRule ^ https://www.thegreenwoodhotels.com [R=302,L]
+
+# Redirect root requests to the dist folder internally
+RewriteRule ^$ dist/ [L]
+
+# Serve files from the dist folder, but keep the URL clean
+RewriteCond %{REQUEST_URI} !^/dist/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ dist/$1 [L]
+
+# Handle any 404 errors by redirecting to index.html in dist folder
+ErrorDocument 404 /dist/index.html
